@@ -7,6 +7,7 @@ module.exports = {
         'custom__primary': '#5F7B51',
         'custom__secondary': '#C6D292',
         'custom__third': '#F0F5E1',
+        'custom__forth': '#D9ECB1',
         'custom__alert': '#D02424',
       },
       spacing: {
