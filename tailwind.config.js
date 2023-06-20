@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'custom__primary': '#F0F5E1',
-        'custom__secondary': '#E6EBD0',
-        'custom__third': '#FFF8DC',
+        'custom__primary': '#5F7B51',
+        'custom__secondary': '#C6D292',
+        'custom__third': '#F0F5E1',
         'custom__alert': '#D02424',
       },
       spacing: {
