@@ -34,6 +34,7 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
     require('preline/plugin'),
+    require('@tailwindcss/line-clamp'),
   ],
   
 }
