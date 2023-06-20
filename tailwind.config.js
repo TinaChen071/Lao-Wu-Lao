@@ -23,11 +23,16 @@ module.exports = {
       },
       zIndex: {
         '100': '100',
-      }
+      },
     },
+    fontFamily: {
+      num:['Water Brush']
+    }
   },
   plugins: [
     require('@tailwindcss/forms'),
-    require('preline/plugin')
+    require('@tailwindcss/typography'),
+    require('preline/plugin'),
   ],
+  
 }

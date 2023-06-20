@@ -19,11 +19,20 @@
   <!-- Document Wrapper -->
 
   <!-- Mobile Navbar Start -->
-  <div class="relative bg-custom__primary flex items-center justify-center md:pt-5 md:pb-10 sm:hidden" >
-    <header class="relative flex flex-wrap sm:justify-center sm:flex-nowrap z-50 w-full bg-custom__primary text-sm py-5 dark:bg-gray-800" >
+  <div class="relative bg-custom__third flex items-center justify-center md:pt-5 md:pb-10 sm:hidden" >
+    <header class="relative flex flex-wrap sm:justify-center sm:flex-nowrap z-50 w-full bg-custom__third text-sm py-5 dark:bg-gray-800" >
       <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
+
+        
+
+        <!-- Menu BTN -->
         <div class="flex items-center justify-end">
           
+          <!-- Logo -->
+          <a href="#" class="mx-auto">
+            <img src="/img/老吾老logo (2).png" class="h-8">
+          </a>
+
           <div class="sm:hidden">
             <button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800" data-hs-collapse="#navbar-collapse-basic" aria-controls="navbar-collapse-basic" aria-label="Toggle navigation">
               <svg class="hs-collapse-open:hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
@@ -53,7 +62,7 @@
                   About
                 </a>
                 <div class="hs-dropdown relative [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover]">
-                  <button type="button" class="w-full flex justify-between w-full items-center text-sm text-gray-800 rounded-md py-2 px-3 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300">
+                  <button type="button" class="w-full flex justify-between  items-center text-sm text-gray-800 rounded-md py-2 px-3 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300">
                     Sub Menu
                     <svg class="sm:-rotate-90 ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
@@ -273,15 +282,43 @@
     </div>
 
     <!-- 最新消息卡片 -->
-    <div class="container mx-auto sm:px-6 lg:px-8 lg:py-10">
+    <div class="container mx-auto sm:px-6 lg:px-8 sm:py-10">
       <!-- 01 -->
-      <div class="flex gap-10">
-        <div class="w-full rounded-md overflow-hidden border-custom__secondary border-2">
-          <img src="/img/cover1.jpeg" alt="">
+      <div class="flex gap-16">
+        <!-- 照片 -->
+        <div class="w-full rounded-lg overflow-hidden border-custom__secondary border-2">
+          <img src="/img/cover1.jpeg" alt="" class="h-96 object-cover">
         </div>
-        <div class="w-full ">
-          <h1>標題標題</h1>
+
+        <!-- 內容 -->
+        <div class="w-full flex flex-col items-start justify-between">
+          
+          <div class="flex flex-col gap-8 ">
+            <!-- 標題 -->
+              <h1 class="text-2xl text-custom__primary">
+                <span class="font-num text-6xl text-custom__secondary">01</span>
+                標題標題
+              </h1>
+
+              <!-- 時間 -->
+              <p class="text-custom__primary text-sm">
+                2023.05.12
+              </p>
+
+              <!-- 內文 -->
+              <p class="text-gray-700">
+                在新冠肺炎席捲全球的當下，您是否飽受睡眠障礙之苦？明明躺在溫暖的被窩裡，好似有進入夢鄉，隔天醒來後卻仍覺得沒精神、思考效率低迷，睡眠障礙不僅僅會影響工作表現與婚姻關係，更會增加罹患心血管疾病的機率，萬萬不可等閒視之。
+              </p>
+          </div>
+
+          <!-- 查看更多 BTN -->
+          <a href="#" class="bg-custom__primary  rounded-full px-6 py-3 transition duration-180 hover:ease-out ease-in hover:bg-slate-900">
+            <p class="text-white inline-block  ">查看更多</p>
+            <i class="text-white ml-2 fa-solid fa-arrow-right  "></i>
+          </a>
+
         </div>
+          
       </div>
     </div>
     
