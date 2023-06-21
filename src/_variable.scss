@@ -17,17 +17,17 @@
 .mainMenu > li > a{
     display: block;
 }
-#slider::after{
-    content:"";
-    display: inline-block;
-    background-image: url('img/Vector\ \(2\).png');
-    background-size: cover;
-    position: absolute;
-    bottom: 0px;
-    z-index: 20;
-    width: 100%;
-    height: 30%;
-}
+// #slider::after{
+//     content:"";
+//     display: inline-block;
+//     background-image: url('img/Vector\ \(2\).png');
+//     background-size: cover;
+//     position: absolute;
+//     bottom: 0px;
+//     z-index: 20;
+//     width: 100%;
+//     height: 30%;
+// }
 
 // #nav::after{
 //     content:"";
