@@ -3,6 +3,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+
 .arrow {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
@@ -23,91 +27,22 @@
 }
 
 @layer components {
-  .container__custom {
-    @apply container mx-auto px-4 sm:px-6 lg:px-8 mb-4;
-  }
-  .section {
-    @apply py-2 lg:py-5;
-  }
-  .center__custom {
+  .horizon__center {
     @apply flex items-center justify-center;
   }
-  .header__btn {
-    @apply text-gray-400 hover:text-custom__primary;
+  .vertical__center {
+    @apply absolute left-1/2 transform -translate-x-1/2;
   }
-  .nav__btn {
-    @apply text-gray-900 inline-flex items-center rounded-md py-3 px-3 text-sm font-medium hover:bg-gray-100;
+  .webMenu--BTN {
+    @apply font-medium text-custom__primary hover:text-gray-900;
   }
-  .nav__btn__line {
-    @apply text-gray-900 inline-flex items-center rounded-md py-3  text-sm font-medium;
+  .mobileMenu--BTN {
+    @apply font-medium text-gray-900 hover:text-custom__primary;
   }
-  .section__subtitle {
-    @apply flex items-center justify-between py-3 lg:py-5;
+  .mobileSub--BTN {
+    @apply flex items-center gap-x-3.5 py-2 px-3 text-sm text-gray-800 hover:text-custom__primary hover:bg-gray-100 rounded-md;
   }
-  .section__subtitle__title {
-    @apply text-2xl font-bold tracking-tight text-gray-900;
-  }
-  .section__subtitle__more {
-    @apply text-base font-semibold text-gray-600 hover:text-custom__primary block items-end;
-  }
-  .product__img {
-    @apply rounded-md bg-gray-200 hover:opacity-75;
-  }
-  .product__price {
-    @apply mt-1 text-lime-600 font-extrabold;
-  }
-  .product__btn {
-    @apply flex items-center justify-center rounded-md border border-transparent bg-gray-100 py-2 px-2 md:px-8 text-sm font-semibold text-gray-900 hover:bg-custom__secondary;
-  }
-  .tag__items {
-    @apply px-2 py-2 lg:px-5 lg:py-4 font-semibold text-gray-900 bg-custom__secondary hover:bg-custom__primary rounded-full;
-  }
-  .item__title {
-    @apply mt-1 font-semibold text-gray-900 hover:text-custom__primary;
-  }
-  .sort__btn {
-    @apply text-gray-500 block px-4 py-2 text-sm hover:bg-gray-100;
-  }
-  .productPage__btn {
-    @apply flex items-center justify-center rounded-md border border-transparent bg-custom__secondary py-2 px-8 text-sm font-semibold text-gray-900 transition duration-700 ease-in-out hover:-translate-y-1;
-  }
-  .canael__btn {
-    @apply flex items-center justify-center rounded-md border-2 border-custom__secondary bg-white py-2 px-8 text-sm font-semibold text-gray-900 transition duration-700 ease-in-out hover:-translate-y-1;
-  }
-  .checkbox__custom {
-    @apply h-4 w-4 rounded border-gray-300 text-custom__primary focus:ring-custom__primary;
-  }
-  .progress__bar--default {
-    @apply border-l-4 border-gray-200 py-2 pl-4  md:border-l-0 md:border-t-4 md:pl-0 md:pt-4 md:pb-0;
-  }
-  .progress__bar--active {
-    @apply border-l-4  py-2 pl-4 border-custom__primary md:border-l-0 md:border-t-4 md:pl-0 md:pt-4 md:pb-0;
-  }
-  .progress__title--default {
-    @apply font-semibold text-gray-500;
-  }
-  .progress__title--active {
-    @apply font-semibold text-custom__primary;
-  }
-  .color--active {
-    @apply focus:ring-2 focus:ring-offset-1 focus:ring-custom__primary focus:outline-none;
-  }
-  .input__title {
-    @apply block text-sm font-medium text-gray-700 mt-6;
-  }
-  .input__input {
-    @apply block w-full rounded-md border-gray-300 shadow-sm focus:border-custom__primary focus:ring-custom__primary sm:text-sm;
-  }
-  .member__btn--default {
-    @apply border-transparent text-gray-900 hover:bg-gray-50 hover:text-gray-900  border-l-4 px-3 py-2 text-sm font-medium;
-  }
-  .member__btn--active {
-    @apply border-custom__primary bg-custom__third text-custom__primary hover:bg-custom__third hover:text-custom__primary  border-l-4 px-3 py-2 text-sm font-semibold;
-  }
-  .member__icon--default {
-    @apply text-gray-400 group-hover:text-gray-500 -ml-1 mr-3 h-6 w-6 flex-shrink-0;
-  }
-  .member__icon--active {
-    @apply text-custom__primary group-hover:text-custom__primary -ml-1 mr-3 h-6 w-6 flex-shrink-0;
+  .webSub--BTN {
+    @apply flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:text-custom__primary  hover:bg-gray-100;
   }
 }/*# sourceMappingURL=input.css.map */
