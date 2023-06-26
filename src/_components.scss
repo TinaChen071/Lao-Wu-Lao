@@ -61,5 +61,24 @@
         @apply text-3xl font-semibold text-custom__primary mb-2
     }
 
+    .toTop--BTN {
+        @apply vertical__center  text-center text-sm md:text-base bg-custom__primary hover:bg-gray-900 transition duration-150 ease-out hover:ease-in rounded-full text-white px-3 py-1 md:px-5 md:py-2 -top-2 md:top-5 lg:top-10
+    }
+    .footer--menu {
+        @apply text-custom__primary hover:text-gray-900
+    }
+    .breadcrumb--default {
+        @apply text-sm text-gray-400 hover:text-custom__primary hover:font-medium
+    }
+    .breadcrumb--active {
+        @apply text-sm font-medium text-custom__primary
+    }
+
+    .pagination--default {
+        @apply inline-flex items-center px-4 py-3 text-sm font-medium text-gray-500 hover:bg-gray-100 rounded-full
+    }
+    .pagination--active {
+        @apply inline-flex items-center px-4 py-3 text-sm font-medium text-white bg-custom__secondary rounded-full
+    }
     
 }
