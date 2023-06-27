@@ -105,4 +105,19 @@ html {
   .pagination--active {
     @apply inline-flex items-center px-4 py-3 text-sm font-medium text-white bg-custom__secondary rounded-full;
   }
+  .service--infoCard {
+    @apply bg-custom__forth rounded-2xl overflow-hidden p-5 flex flex-col gap-4 text-center;
+  }
+  .table--title {
+    @apply px-3 md:px-6 py-3 text-xs sm:text-sm text-center font-medium text-gray-500 whitespace-nowrap;
+  }
+  .table--main {
+    @apply py-4 text-xs sm:text-sm  sm:whitespace-nowrap font-medium text-gray-800 border-r border-gray-200;
+  }
+  .table--data__default {
+    @apply px-3 md:px-6 py-4 text-xs sm:text-sm whitespace-nowrap text-center text-gray-800 border-r border-gray-200;
+  }
+  .table--data__active {
+    @apply px-3 md:px-6 py-4 text-xs sm:text-sm whitespace-nowrap text-center text-gray-800 border-r border-gray-200 bg-gray-100;
+  }
 }/*# sourceMappingURL=input.css.map */
