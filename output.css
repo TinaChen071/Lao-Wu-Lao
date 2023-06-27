@@ -1737,9 +1737,6 @@ select{
   padding-bottom: 1rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-  opacity: 0;
   transition-duration: 500ms;
 }
 
@@ -1760,7 +1757,31 @@ select{
   line-height: 2.25rem;
   font-weight: 600;
   --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.group:hover .service--content--title{
+  --tw-text-opacity: 1;
   color: rgb(95 123 81 / var(--tw-text-opacity));
+}
+
+.service--content--p{
+  font-size: 0.75rem;
+  line-height: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.group:hover .service--content--p{
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px){
+  .service--content--p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 .toTop--BTN{
