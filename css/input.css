@@ -79,7 +79,7 @@ html {
     @apply bg-white bg-opacity-0 px-4 sm:px-10 flex flex-wrap flex-col items-center justify-center h-full hover:bg-opacity-95 transform duration-300;
   }
   .service--content__hover {
-    @apply text-sm group-hover:opacity-100 transform duration-500;
+    @apply text-sm group-hover:opacity-100 transform duration-500 py-4 md:py-8;
   }
   .service--content--title {
     @apply text-3xl font-semibold text-white group-hover:text-custom__primary mb-2;
