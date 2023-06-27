@@ -135,6 +135,12 @@ html {
   .environment--title {
     @apply text-2xl md:text-4xl text-custom__primary;
   }
+  .input__title {
+    @apply block text-sm font-medium text-gray-700;
+  }
+  .input__input {
+    @apply block w-full rounded-md border-gray-300 shadow-sm focus:border-custom__primary focus:ring-custom__primary sm:text-sm;
+  }
 }
 @screen sm {
   #checkIn--bg {
