@@ -100,4 +100,20 @@
     .table--data__active {
         @apply px-3 md:px-6 py-4 text-xs sm:text-sm whitespace-nowrap text-center text-gray-800 border-r border-gray-200 bg-gray-100
     }
+
+    .checkIn--card--num {
+        @apply text-white text-xl bg-custom__primary rounded-full px-4 py-2
+    }
+    .checkIn--card--title {
+        @apply text-lg whitespace-nowrap font-semibold text-custom__primary
+    }
+    
 }
+
+@screen sm {
+    #checkIn--bg {
+      background-image: url(../img/line.png); 
+      background-size: 100%;
+      @apply bg-contain bg-no-repeat bg-center bg-opacity-20;
+    }
+  }

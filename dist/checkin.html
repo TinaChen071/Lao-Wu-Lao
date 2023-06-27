@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>收費標準</title>
+    <!-- Main css -->
+    <link rel="stylesheet" href="../output.css">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon.ico">
+    
+    
+</head>
+<body>
+
+  <!-- Mobile Navbar Start -->
+  <div class="sticky top-0 w-full bg-custom__third horizon__center md:hidden z-100" >
+    <header class=" flex flex-wrap sm:justify-center sm:flex-nowrap z-50 w-full bg-custom__third text-sm py-4 dark:bg-gray-800" >
+      <nav class="max-w-[85rem] w-full mx-auto px-4 " aria-label="Global">
+
+        <!-- Menu BTN -->
+        <div class="relative flex items-center justify-end">
+          
+          <!-- Logo -->
+          <a href="#" class="vertical__center">
+            <img src="../img/老吾老logo.png" class="h-10">
+          </a>
+
+          
+          <div class="md:hidden">
+            <button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-custom__primary shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-custom__secondary transition-all text-sm " data-hs-collapse="#navbar-collapse-basic" aria-controls="navbar-collapse-basic" aria-label="Toggle navigation">
+
+              <!-- Open -->
+              <div class="hs-collapse-open:hidden w-4 h-4">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              
+              <!-- Close -->
+              <div class="hs-collapse-open:block hidden w-4 h-4">
+                <i class="fa-solid fa-xmark "></i>
+              </div>
+
+            </button>
+          </div>
+        </div>
+    
+        <div id="navbar-collapse-basic" class="hidden basis-full grow">
+          <div class="flex flex-col gap-5 mt-5 ">
+            <!-- BTN 01 -->
+            <a class="mobileMenu--BTN" href="#" aria-current="page">關於我們</a>
+    
+            <!-- BTN 02 -->
+            <div class="hs-dropdown [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover]">
+              <button id="hs-mega-menu-basic-dr" type="button" class="flex items-center w-full mobileMenu--BTN">
+                鶯歌老吾老
+                <svg class="ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                </svg>
+              </button>
+    
+              <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden z-10 sm:mt-3 bg-white sm:shadow-md rounded-lg p-2 ">
+                <a class="mobileSub--BTN" href="#">
+                  最新消息
+                </a>
+                <a class="mobileSub--BTN" href="#">
+                  活動花絮
+                </a>
+                <a class="mobileSub--BTN" href="#">
+                  環境介紹
+                </a>
+                <a class="mobileSub--BTN" href="#">
+                  服務介紹
+                </a>
+                <a class="mobileSub--BTN" href="#">
+                  收費標準
+                </a>
+                <a class="mobileSub--BTN" href="#">
+                  入住準備
+                </a>
+              </div>
+            </div>
+    
+            <!-- BTN 03 -->
+            <a class="mobileMenu--BTN" href="#">老吾老成員</a>
+
+            <!-- BTN 04 -->
+            <a class="mobileMenu--BTN" href="#">我們的特色</a>
+
+            <!-- BTN 05 -->
+            <div class="hs-dropdown [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover]">
+              <button id="hs-mega-menu-basic-dr" type="button" class="flex items-center w-full mobileMenu--BTN">
+                客服專區
+                <svg class="ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                </svg>
+              </button>
+    
+              <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden z-10 sm:mt-3 bg-white sm:shadow-md rounded-lg p-2 ">
+                <a class="mobileSub--BTN" href="#">
+                  聯絡我們
+                </a>
+                <a class="mobileSub--BTN" href="#">
+                  交通位置
+                </a>
+                <a class="mobileSub--BTN" href="#">
+                  性騷擾防治措施
+                </a>
+                <a class="mobileSub--BTN" href="#">
+                  FB 連結
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+  </div>
+  <!-- Mobile Navbar End -->
+
+  <!-- Document Wrapper -->
+  <section class=" ">
+
+    <!-- Slider Start -->
+    <div class="relative" id="slider">
+      <div class="relative h-40 md:h-60 lg:h-96 overflow-hidden ">
+        <img src="../img/cover8.jpeg" alt="">
+        <!-- 波浪裝飾 -->
+        <div class="absolute  bottom-0">
+          <img src="../img/Flow2.png" alt="" class="w-full md:bg-custom__third">
+        </div>
+      </div>
+      
+
+      <!-- Content Section Start -->
+      <div class="absolute bottom-0 z-10">
+
+        <!-- Navbar Section Start -->
+        <section class="hidden md:block z-10 " id="nav">
+
+          <!-- 波浪裝飾 -->
+          <div class="">
+            <img src="../img/Flow1.png" alt="" class="w-full">
+          </div>
+
+          <!-- Nav -->
+          <div class="relative bg-custom__third  py-4 md:pt-8 md:pb-8" >
+
+            <!-- Logo -->
+            <a href="#" class="vertical__center z-20 bottom-full">
+              <img src="../img/老吾老logo.png" class="h-16">
+            </a>
+
+            <!-- Menu -->
+            <header class="relative flex flex-wrap sm:justify-center sm:flex-nowrap z-50 w-full  text-sm " >
+              <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
+            
+                <div id="navbar-collapse-basic" class="hidden basis-full grow sm:block">
+                  <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-center sm:mt-0 sm:pl-5">
+                    
+                    <!-- BTN 01 -->
+                    <a class="webMenu--BTN" href="#" aria-current="page">關於我們</a>
+            
+                    <span class="text-custom__primary">/</span>
+
+                    <!-- BTN 02 -->
+                    <div class="hs-dropdown [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover]">
+                      <button id="hs-mega-menu-basic-dr" type="button" class="flex items-center w-full webMenu--BTN">
+                        鶯歌老吾老
+                        <svg class="ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                        </svg>
+                      </button>
+            
+                      <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden  sm:mt-3 bg-white sm:shadow-md rounded-lg p-2 before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5 ">
+                        <!-- 01 -->
+                        <a class="webSub--BTN" href="#">
+                          最新消息
+                        </a>
+                        <!-- 02 -->
+                        <a class="webSub--BTN" href="#">
+                          活動花絮
+                        </a>
+                        <!-- 03 -->
+                        <a class="webSub--BTN" href="#">
+                          環境介紹
+                        </a>
+                        <!-- 04 -->
+                        <a class="webSub--BTN" href="#">
+                          服務介紹
+                        </a>
+                        <!-- 05 -->
+                        <a class="webSub--BTN" href="#">
+                          收費標準
+                        </a>
+                        <!-- 06 -->
+                        <a class="webSub--BTN" href="#">
+                          入住準備
+                        </a>
+                      </div>
+                    </div>
+            
+                    <span class="text-custom__primary">/</span>
+
+                    <!-- BTN 03 -->
+                    <a class="webMenu--BTN" href="#" aria-current="page">老吾老成員</a>
+
+                    <span class="text-custom__primary">/</span>
+
+                    <!-- BTN 04 -->
+                    <a class="webMenu--BTN" href="#" aria-current="page">我們的特色</a>
+
+                    <span class="text-custom__primary">/</span>
+
+                    <!-- BTN 05 -->
+                    <div class="hs-dropdown [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover]">
+                      <button id="hs-mega-menu-basic-dr" type="button" class="flex items-center w-full webMenu--BTN">
+                        客服專區
+                        <svg class="ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                        </svg>
+                      </button>
+            
+                      <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden  sm:mt-3 bg-white sm:shadow-md rounded-lg p-2 before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5 ">
+                        <!-- 01 -->
+                        <a class="webSub--BTN" href="#">
+                          聯絡我們
+                        </a>
+                        <!-- 02 -->
+                        <a class="webSub--BTN" href="#">
+                          交通位置
+                        </a>
+                        <!-- 03 -->
+                        <a class="webSub--BTN" href="#">
+                          性騷擾防治措施
+                        </a>
+                        <!-- 04 -->
+                        <a class="webSub--BTN" href="#">
+                          FB 連結
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </header>
+          </div>
+
+        </section>
+        <!-- Navbar Section End -->
+        
+      </div>
+      <!-- Content Section End -->
+    </div>  
+    <!-- Slider End -->
+
+    
+      
+    <!-- Info Section Start -->
+    <section class="">
+      
+      <!-- 波浪裝飾 -->
+      <div class="">
+        <img src="../img/Flow2.png" alt="" class="w-full md:bg-custom__third">
+      </div>
+
+      <!-- 內容區塊 -->
+      <div class="bg-white">
+        <div class="section flex flex-col gap-10">
+
+          <!-- Breadcrumbs -->
+          <nav class="flex" aria-label="Breadcrumb">
+            <ol role="list" class="flex items-center space-x-4">
+              <li>
+                <div>
+                  <a href="#" class="breadcrumb--default">
+                    <svg class="h-5 w-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z" clip-rule="evenodd" />
+                    </svg>
+                    <span class="sr-only">Home</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="flex items-center">
+                  <svg class="h-5 w-5 flex-shrink-0 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+                  </svg>
+                  <a href="#" class="ml-4 breadcrumb--default ">鶯歌老吾老</a>
+                </div>
+              </li>
+              <li>
+                <div class="flex items-center">
+                  <svg class="h-5 w-5 flex-shrink-0 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+                  </svg>
+                  <a href="#" class="ml-4 breadcrumb--active" aria-current="page">入住準備</a>
+                </div>
+              </li>
+            </ol>
+          </nav>
+
+          <!-- 標題 -->
+          <div class="sectionTitle--Wrapper">
+            <h2>CHECK-IN</h2>
+            <hr class="border-b border-custom__primary">
+            <h2>入住準備</h2>
+          </div>
+
+          <!-- 入住流程 -->
+          <div>
+            <h2 class="text-lg font-semibold mb-6">一、入住流程</h2>
+
+            <div class="" id="checkIn--bg">
+              <div class="flex flex-col gap-20 " >
+
+                <!-- 01 -->
+                <div class="flex ">
+                  <!-- 左 -->
+                  <div class="flex gap-6 md:gap-16 w-full items-center">
+                    <!-- 圖片 -->
+                      <img src="../img/checkin6.png" alt="" class="w-32 h-32 order-2 sm:order-1">
+  
+                      <!-- 編號 -->
+                      <p class="checkIn--card--num order-1 sm:order-2">
+                        1
+                      </p>
+  
+                      <!-- 內文 -->
+                      <div class="flex flex-col gap-4 order-3">
+                        <p class="checkIn--card--title">電話諮詢</p>
+                        <p class="text-gray-700">
+                        電話諮詢: (02)8677-1760
+                        <br>先了解服務內容、收費標準
+                        </p>
+                      </div>
+                  </div>
+    
+                  <!-- 右 -->
+                  <div class="lg:w-full hidden sm:block">
+  
+                  </div>
+                </div>
+  
+                <!-- 02 -->
+                <div class="flex">
+                  <!-- 左 -->
+                  <div class="flex gap-4 md:gap-16 w-full items-center order-2">
+                      <!-- 圖片 -->
+                      <img src="../img/checkin5.png" alt="" class="w-32 h-32 order-2 sm:order-3">
+  
+                      <!-- 編號 -->
+                      <p class="checkIn--card--num order-1 sm:order-2">
+                        2
+                      </p>
+  
+                      <!-- 內文 -->
+                      <div class="flex flex-col gap-4 order-3 sm:order-1">
+                        <p class="checkIn--card--title">現場參觀</p>
+                        <p class="text-gray-700">
+                          邀請家人一同來院看現場環境，工作人員將親切為 您引導詳細解說
+                        </p>
+                      </div>
+                  </div>
+    
+                  <!-- 右 -->
+                  <div class="lg:w-full hidden sm:block order-1">
+  
+                  </div>
+                </div>
+  
+                <!-- 03 -->
+                <div class="flex">
+                  <!-- 左 -->
+                  <div class="flex gap-4 md:gap-16 w-full items-center">
+                    <!-- 圖片 -->
+                      <img src="../img/checkin4.png" alt="" class="w-32 h-32 order-2 sm:order-1">
+  
+                      <!-- 編號 -->
+                      <p class="checkIn--card--num order-1 sm:order-2">
+                        3
+                      </p>
+  
+                      <!-- 內文 -->
+                      <div class="flex flex-col gap-4 order-3">
+                        <p class="checkIn--card--title">預訂床位</p>
+                        <p class="text-gray-700">
+                          繳交床位預訂金<br>
+                          護理師、社工員會進行評估訪視，了解您的照護需其及期待
+                        </p>
+                      </div>
+                  </div>
+    
+                  <!-- 右 -->
+                  <div class="lg:w-full hidden sm:block">
+  
+                  </div>
+                </div>
+  
+                <!-- 04 -->
+                <div class="flex">
+                  <!-- 左 -->
+                  <div class="flex gap-4 md:gap-16 w-full items-center order-2">
+                      <!-- 圖片 -->
+                      <img src="../img/checkin3.png" alt="" class="w-32 h-32 order-2 sm:order-3">
+  
+                      <!-- 編號 -->
+                      <p class="checkIn--card--num order-1 sm:order-2">
+                        4
+                      </p>
+  
+                      <!-- 內文 -->
+                      <div class="flex flex-col gap-4 order-3 sm:order-1">
+                        <p class="checkIn--card--title">進行體檢</p>
+                        <p class="text-gray-700">
+                          自床位預訂後 10 天內需進行並完成體檢報告
+                        </p>
+                      </div>
+                  </div>
+    
+                  <!-- 右 -->
+                  <div class="lg:w-full hidden sm:block order-1">
+  
+                  </div>
+                </div>
+  
+                <!-- 05 -->
+                <div class="flex">
+                  <!-- 左 -->
+                  <div class="flex gap-4 md:gap-16 w-full items-center">
+                    <!-- 圖片 -->
+                      <img src="../img/checkin2.png" alt="" class="w-32 h-32 order-2 sm:order-1">
+  
+                      <!-- 編號 -->
+                      <p class="checkIn--card--num order-1 sm:order-2">
+                        5
+                      </p>
+  
+                      <!-- 內文 -->
+                      <div class="flex flex-col gap-4 order-3">
+                        <p class="checkIn--card--title">簽訂契約</p>
+                        <p class="text-gray-700">
+                          契約審閱期 5 天，請詳閱契約內容、入住須知、生活公約等重要事項
+                        </p>
+                      </div>
+                  </div>
+    
+                  <!-- 右 -->
+                  <div class="lg:w-full hidden sm:block">
+  
+                  </div>
+                </div>
+  
+                <!-- 06 -->
+                <div class="flex">
+                  <!-- 左 -->
+                  <div class="flex gap-4 md:gap-16 w-full items-center order-2">
+                      <!-- 圖片 -->
+                      <img src="../img/checkin1.png" alt="" class="w-32 h-32 order-2 sm:order-3">
+  
+                      <!-- 編號 -->
+                      <p class="checkIn--card--num order-1 sm:order-2">
+                        6
+                      </p>
+  
+                      <!-- 內文 -->
+                      <div class="flex flex-col gap-4 order-3 sm:order-1">
+                        <p class="checkIn--card--title">歡喜入厝</p>
+                        
+                      </div>
+                  </div>
+    
+                  <!-- 右 -->
+                  <div class="w-full hidden sm:block order-1">
+  
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 體檢項目 Start -->
+      <div class="section">
+        <h2 class="text-lg font-semibold mb-6">二、體檢項目</h2>
+
+        <p class="text-custom__alert font-semibold mb-4">
+          ※ 長輩入住前 (檢查前一天晚上12點以後請禁止進食及飲水)
+        </p>
+        <!-- 體檢項目表格 -->
+        <div class="horizon__center">
+          <div class="-m-1.5 overflow-x-auto">
+            <div class="p-1.5 min-w-full inline-block align-middle">
+              <div class="border rounded-lg shadow overflow-hidden ">
+                <table class="min-w-full divide-y divide-gray-200 ">
+                  <thead class="bg-custom__third ">
+                    <tr>
+                      <th scope="col" class="table--title">入住體檢項目</th>
+                      <th scope="col" class="table--title">檢查項目</th>
+                    </tr>
+                  </thead>
+                  <tbody class="divide-y divide-gray-200 ">
+                    <!-- row 01 -->
+                    <tr>
+                      <td class="table--data__default">1. 血液檢查</td>
+                      <td class="px-3 md:px-6 py-4 text-xs sm:text-sm whitespace-nowrap text-gray-800 border-r border-gray-200">
+                        CBC(血球總數)
+                        <br>
+                        DC（白血球分類）
+                      </td>
+                    </tr>
+        
+                    <!-- row 02 -->
+                    <tr>
+                      <td class="table--data__default">2. 生化檢查</td>
+                      <td class="px-3 md:px-6 py-4 text-xs sm:text-sm  text-gray-800 border-r border-gray-200">
+                        GOT、GPT（肝功能檢查）、Na（鈉）、K（鉀）、BUN（尿素氮）、Cr（肌酸酐）、Albumin（白蛋白）、AC sugar（飯前血糖）、Uric Acid、Cholesterol、Triglyceride
+                      </td>
+                    </tr>
+
+                    <!-- row 03 -->
+                    <tr>
+                      <td class="table--data__default">3. 尿液檢查</td>
+                      <td class="px-3 md:px-6 py-4 text-xs sm:text-sm whitespace-nowrap text-gray-800 border-r border-gray-200">
+                        U/A
+                      </td>
+                    </tr>
+
+                    <!-- row 04 -->
+                    <tr>
+                      <td class="table--data__default">4. 肝炎檢查</td>
+                      <td class="px-3 md:px-6 py-4 text-xs sm:text-sm whitespace-nowrap text-gray-800 border-r border-gray-200">
+                        HBsAg（B型肝炎表面抗原檢查）
+                        <br>
+                        Anti-HBs（B型肝炎表面抗體檢查）
+                        <br>
+                        C 肝
+                      </td>
+                    </tr>
+
+                    <!-- row 05 -->
+                    <tr>
+                      <td class="table--data__default">5. 其他檢查</td>
+                      <td class="px-3 md:px-6 py-4 text-xs sm:text-sm whitespace-nowrap text-gray-800 border-r border-gray-200">
+                        HIV（愛滋病）
+                        <br>
+                        VDRL（梅毒）
+                      </td>
+                    </tr>
+
+                    <!-- row 06 -->
+                    <tr>
+                      <td class="table--data__default">6. 糞便檢查</td>
+                      <td class="px-3 md:px-6 py-4 text-xs sm:text-sm  text-gray-800 border-r border-gray-200">
+                        阿米巴痢疾、桿菌性痢疾、寄生蟲（註明無蟯蟲和蛔蟲）
+                      </td>
+                    </tr>
+
+                    <!-- row 07 -->
+                    <tr>
+                      <td class="table--data__default">7. 放射檢查</td>
+                      <td class="px-3 md:px-6 py-4 text-xs sm:text-sm  text-gray-800 border-r border-gray-200">
+                        Chest X-ray（胸部X光檢查）
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 體檢項目 End -->
+
+
+      <!-- 應備物品 Start -->
+      <div class="section">
+        <h2 class="text-lg font-semibold mb-6">三、應備物品</h2>
+
+        <p class="text-custom__alert font-semibold mb-4">
+          ※ 入住時，請攜帶以下物品
+        </p>
+        <!-- 應備物品表格 -->
+        <div class="horizon__center">
+          <div class="-m-1.5 overflow-x-auto">
+            <div class="p-1.5 min-w-full inline-block align-middle">
+              <div class="border rounded-lg shadow overflow-hidden ">
+                <table class="min-w-full divide-y divide-gray-200 ">
+                  <thead class="bg-custom__third ">
+                    <tr>
+                      <th scope="col" class="table--title">序號</th>
+                      <th scope="col" class="table--title">品項</th>
+                      <th scope="col" class="table--title">對象</th>
+                      <th scope="col" class="table--title">內容</th>
+                      <th scope="col" class="table--title">檢查項目</th>
+                    </tr>
+                  </thead>
+                  <tbody class="divide-y divide-gray-200 ">
+                    <!-- row 01 -->
+                    <tr>
+                      <td class="table--data__default">一</td>
+                      <td class="table--data__default">
+                        證件
+                      </td>
+                      <td class="table--data__default">
+                        入住長者
+                      </td>
+                      <td class="table--data__default text-left">
+                        <ul class="list-decimal">
+                          <li>身分證影本一份</li>
+                          <li>身心障礙手冊影本（無則免付）一份</li>
+                          <li>重大傷病卡（無則免付）一份</li>
+                          <li>中低收入或低收證明一份（無則免付）</li>
+                          <li>健保 IC 卡正本</li>
+                        </ul>
+                      </td>
+                      <td class="table--data__default whitespace-normal">
+                        簽約者請配合示出身分證正本（核對完畢當場即歸還）
+                      </td>
+                    </tr>
+        
+                    <!-- row 02 -->
+                    <tr>
+                      <td class="table--data__default">二</td>
+                      <td class="table--data__default">
+                        醫療紀錄
+                      </td>
+                      <td class="table--data__default">
+                        入住長者
+                      </td>
+                      <td class="table--data__default text-left">
+                        <ul class="list-decimal">
+                          <li>病歷摘要一份</li>
+                          <li>檢驗報告</li>
+                        </ul>
+                      </td>
+                      <td class="table--data__default whitespace-normal">
+                        
+                      </td>
+                    </tr>
+
+                    <!-- row 03 -->
+                    <tr>
+                      <td class="table--data__default">三
+                      <td class="table--data__default">
+                        藥物（內服/外用）
+                      </td>
+                      <td class="table--data__default">
+                        入住長者
+                      </td>
+                      <td class="table--data__default text-left">
+                        若有自備藥物含中藥及非處方藥品，請家屬簽立同意書，方可使用。
+                      </td>
+                      <td class="table--data__default whitespace-normal">
+                        
+                      </td>
+                    </tr>
+
+                    <!-- row 04 -->
+                    <tr>
+                      <td class="table--data__default">四</td>
+                      <td class="table--data__default">
+                        衣物
+                      </td>
+                      <td class="table--data__default">
+                        入住長者
+                      </td>
+                      <td class="table--data__default text-left">
+                        <ul class="list-decimal">
+                          <li>輕便家居服：3 -5 套</li>
+                          <li>內衣褲：至少 3 套</li>
+                          <li>保暖衣物/外套：1 - 2 件</li>
+                          <li>拖鞋（防滑）：1 雙</li>
+                          <li>襪子：3 雙</li>
+                          <li>鞋（防滑）： 1 雙</li>
+                        </ul>
+                      </td>
+                      <td class="table--data__default whitespace-normal">
+                        家屬請協助繡上長輩（入住者）姓名
+                      </td>
+                    </tr>
+
+                    <!-- row 05 -->
+                    <tr>
+                      <td class="table--data__default">五
+                      <td class="table--data__default">
+                        個人特殊用品
+                      </td>
+                      <td class="table--data__default">
+                        入住長者
+                      </td>
+                      <td class="table--data__default text-left">
+                        請依喜好攜帶！
+                      </td>
+                      <td class="table--data__default whitespace-normal ">
+                        請在入住前協助標示名字在每樣物品上 
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 應備物品 End -->
+      
+    </section>
+    <!-- Info Section End -->
+
+
+    <!-- Footer Start --> 
+    <footer class="relative bg-custom__third">
+
+      <!-- To top BTN -->
+      <button type="button" onclick="topFunction()" class="toTop--BTN" id="toTop">
+        <i class="fa-solid fa-arrow-up"></i>
+        <p>Top</p>
+      </button>
+
+      <!-- 波浪裝飾 -->
+      <div class="">
+        <img src="../img/Flow4.png" alt="" class="w-full bg-white">
+      </div>
+
+      <!-- Content -->
+      <div class="section font-semibold ">
+        <div class="flex md:gap-16 items-center">
+
+          <!-- Contact Section-->
+          <div class="flex mx-auto justify-center lg:justify-start gap-8 w-full">
+
+            <!-- Logo -->
+            <a href="#" class="h-12 w-12 md:h-16 md:w-16 my-auto">
+              <img src="../img/老吾老logo.png" class="">
+            </a>
+
+            <!-- 聯絡資訊 -->
+              <div class="text-custom__primary text-sm md:text-base flex flex-col gap-2 md:gap-4 my-auto">
+
+                <!-- 電話 -->
+                <div class="flex gap-2">
+                  <i class="fa-solid fa-phone my-auto"></i>
+                  <p class="font-medium">(02)8677-1760</p>
+                </div>
+
+                <!-- 信箱 -->
+                <div class="flex gap-2">
+                  <i class="fa-solid fa-envelope my-auto"></i>
+                  <p class="font-medium">cc91273606@yahoo.com.tw</p>
+                </div>
+
+                <!-- 地址 -->
+                <div class="flex gap-2">
+                  <i class="fa-solid fa-location-dot my-auto"></i>
+                  <p class="font-medium">新北市鶯歌區建國路405巷11號</p>
+                </div>
+
+              </div>
+          </div>
+
+          <!-- Menu -->
+          <div class="hidden md:block w-full">
+            <div class="grid md:grid-cols-2  lg:grid-cols-5 gap-4 text-custom__primary">
+              <a href="" class="footer--menu">關於我們</a>
+              <a href="" class="footer--menu">鶯歌老吾老</a>
+              <a href="" class="footer--menu">老吾老成員</a>
+              <a href="" class="footer--menu">我們的特色</a>
+              <a href="" class="footer--menu">客服專區</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="border-t border-custom__secondary py-4 md:py-8 text-center">
+        <p class="text-sm md:text-base text-custom__primary font-semibold">&copy; 2023 新北市私立老吾老護理之家.</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+      
+    </div>
+    
+
+
+  </section>
+     
+      
+
+  <!-- jQuery main -->
+  <script src="../js/jquery-3.6.3.min.js"></script>
+  <script src="../js/all.js"></script>
+
+  <!-- Preline -->
+  <script src="../node_modules/preline/dist/preline.js"></script>
+
+  <!-- Swiper -->
+  <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
+    
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/a8b708c9db.js" crossorigin="anonymous"></script>
+      
+</body>
+</html>
