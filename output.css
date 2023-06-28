@@ -2244,6 +2244,11 @@ select{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-custom__secondary{
+  --tw-bg-opacity: 1;
+  background-color: rgb(198 210 146 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-0{
   --tw-bg-opacity: 0;
 }
@@ -2621,6 +2626,16 @@ html {
     background-position: center;
     background-repeat: no-repeat;
   }
+}
+
+.marker\:text-xl *::marker{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.marker\:text-xl::marker{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .before\:absolute::before{
