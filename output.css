@@ -3098,6 +3098,10 @@ html {
     gap: 2rem;
   }
 
+  .md\:gap-20{
+    gap: 5rem;
+  }
+
   .md\:bg-custom__third{
     --tw-bg-opacity: 1;
     background-color: rgb(240 245 225 / var(--tw-bg-opacity));
