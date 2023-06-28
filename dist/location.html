@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>聯絡我們</title>
+    <title>交通位置</title>
     <!-- Main css -->
     <link rel="stylesheet" href="../output.css">
     <!-- Swiper -->
@@ -287,7 +287,7 @@
                       <svg class="h-5 w-5 flex-shrink-0 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                         <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
                       </svg>
-                      <a href="#" class="ml-4 breadcrumb--active" aria-current="page">聯絡我們</a>
+                      <a href="#" class="ml-4 breadcrumb--active" aria-current="page">交通位置</a>
                     </div>
                   </li>
                 </ol>
@@ -295,185 +295,107 @@
 
               <!-- 標題 -->
               <div class="sectionTitle__Wrapper">
-                <h2>CONTACT US</h2>
+                <h2>LOCATION</h2>
                 <hr class="border-b border-custom__primary">
-                <h2>聯絡我們</h2>
+                <h2>交通位置</h2>
               </div>
-
-              <!-- 內文 -->
-              <p class="text-center text-gray-400">
-                老吾老長照社團法人關心您及家人的健康！
-                <br>
-                如果您有任何家中長輩或成員照護上的問題，都歡迎您來諮詢，老吾老團隊將會竭誠的為您服務。
-              </p>
               
-              <!-- 聯絡資訊 -->
-              <div class="bg-white">
-                <div class=" ">
+              <!-- 地圖 -->
+              <div class="w-full flex flex-col justify-between gap-8 ">
+                <div class="img__frame__big h-full">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.4245260154635!2d121.3337065747561!3d24.951667077869896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3468194ca635106f%3A0xc130213289148b39!2zMjM55paw5YyX5biC6bav5q2M5Y2A5bu65ZyL6LevNDA15be3MTHomZ8!5e0!3m2!1szh-TW!2stw!4v1687915372829!5m2!1szh-TW!2stw"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-full object-cover"></iframe>
+                </div>
 
-                  <div class="flex flex-col lg:flex-row gap-12">
-                    <!-- 左 -->
-                    <div class="w-full">
-                      <div class=" flex flex-col gap-6 ">
+                <!-- 聯絡資訊 -->
+                <div class="flex  gap-4 flex-row text-custom__primary text-sm md:text-base justify-between">
 
-                        <!-- 姓名 -->
-                        <div class="flex items-end gap-4">
-                          <div class="w-full">
-                            <div class="flex">
-                              <label for="first-name" class="input__title flex-1">姓名</label>
-                            </div>
-                            <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="input__input" placeholder="請輸入姓名">
-                          </div>
-          
-                          <div class="">
-                            <div class="flex gap-4">
-                              <div class="flex items-center">
-                                <input type="radio" name="hs-default-radio" class="input__radio" id="hs-default-radio">
-                                <label for="hs-default-radio" class="text-sm text-gray-500 ml-2 dark:text-gray-400">男</label>
-                              </div>
-                              
-                              <div class="flex items-center">
-                                <input type="radio" name="hs-default-radio" class="input__radio " id="hs-checked-radio" checked>
-                                <label for="hs-checked-radio" class="text-sm text-gray-500 ml-2 dark:text-gray-400">女</label>
-                              </div>
-                            </div>
-                            
-                          </div>
-                        </div>
-  
-                        <!-- Email -->
-                        <div>
-                          <div class="flex">
-                            <label for="first-name" class="input__title flex-1">電子郵件</label>
-                          </div>
-                          <div class="mt-1">
-                            <input type="email" id="email-address" name="email-address" autocomplete="email" class="input__input" placeholder="your@example.com">
-                          </div>
-                        </div>
-  
-                        <!-- 手機 -->
-                        <div class="">
-                          <div class="flex">
-                            <label for="first-name" class="input__title flex-1">手機號碼</label>
-                          </div>
-  
-                          <div class="grid grid-cols-3 gap-y-6 gap-x-4 sm:grid-cols-4 mt-1">
-                            <select id="country" name="country" autocomplete="country-name" class="input__input">
-                              <option>+886</option>
-                              <option>+86</option>
-                            </select>
-                            <div class="col-span-2 sm:col-span-3 self-end">
-                              <input type="text" name="expiration-date" id="expiration-date" autocomplete="cc-exp" class="input__input"
-                              placeholder="912-345-678">
-                            </div>
-                          </div>
-                          
-                        </div>
-  
-                        <!-- 聯絡電話 -->
-                        <div class="">
-                          <div class="flex">
-                            <label for="first-name" class="input__title flex-1">聯絡電話</label>
-                          </div>
-  
-                          <div class="grid grid-cols-3 gap-y-6 gap-x-4 sm:grid-cols-4 mt-1">
-                            <select id="country" name="country" autocomplete="country-name" class="input__input">
-                              <option>(02)</option>
-                              <option>(03)</option>
-                            </select>
-                            <div class="col-span-2 sm:col-span-3 self-end">
-                              <input type="text" name="expiration-date" id="expiration-date" autocomplete="cc-exp" class="input__input"
-                              placeholder="1234-5678">
-                            </div>
-                          </div>
-                          
-                        </div>
-  
-                        <!-- 內容 -->
-                        <div>
-                          <div class="flex">
-                            <label for="first-name" class="input__title flex-1">內容</label>
-                          </div>
-                          <div class="mt-1">
-                            <textarea class="input__input" rows="3"></textarea>
-                          </div>
-                        </div>
-
-                        <!-- BTN -->
-                        <div class="flex gap-8 mx-auto">
-                          <!-- 取消 -->
-                          <a href="#" class=" ">
-                            <button type="button" class="cancel__BTN">
-                              取消重填
-                            </button>
-                          </a>
-                          <!-- 確認 -->
-                          <a href="#" class=" ">
-                            <button type="button" class="more__BTN">
-                              確認送出
-                            </button>
-                          </a>
-                        </div>
-        
-                      </div>
-        
+                  <!-- 左 -->
+                  <div class="flex flex-col gap-4">
+                    <!-- 電話 01 -->
+                    <div class="flex gap-2">
+                      <i class="fa-solid fa-phone my-auto"></i>
+                      <p class="font-medium whitespace-nowrap">(02)8677-1760</p>
                     </div>
-      
-                    <!-- 右 -->
-                    <div class="w-full flex flex-col justify-between gap-8 ">
-                      <!-- 地圖 -->
-                      <div class="img__frame__big h-full">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.4245260154635!2d121.3337065747561!3d24.951667077869896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3468194ca635106f%3A0xc130213289148b39!2zMjM55paw5YyX5biC6bav5q2M5Y2A5bu65ZyL6LevNDA15be3MTHomZ8!5e0!3m2!1szh-TW!2stw!4v1687915372829!5m2!1szh-TW!2stw"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-full object-cover"></iframe>
-                      </div>
-
-                      <!-- 聯絡資訊 -->
-                      <div class="flex  gap-4 flex-row text-custom__primary text-sm md:text-base justify-between">
-
-                        <!-- 左 -->
-                        <div class="flex flex-col gap-4">
-                          <!-- 電話 01 -->
-                          <div class="flex gap-2">
-                            <i class="fa-solid fa-phone my-auto"></i>
-                            <p class="font-medium whitespace-nowrap">(02)8677-1760</p>
-                          </div>
-                          <!-- 電話 02 -->
-                          <div class="flex gap-2">
-                            <i class="fa-solid fa-phone my-auto"></i>
-                            <p class="font-medium whitespace-nowrap">(02)8677-1761</p>
-                          </div>
-                          <!-- 電話 03 -->
-                          <div class="flex gap-2">
-                            <i class="fa-solid fa-phone my-auto"></i>
-                            <p class="font-medium whitespace-nowrap">(02)8677-1762</p>
-                          </div>
-                        </div>
-
-                        <!-- 右 -->
-                        <div class="flex flex-col gap-4">
-                          <!-- 傳真 -->
-                          <div class="flex gap-2">
-                            <i class="fa-solid fa-fax my-auto"></i>
-                            <p class="font-medium whitespace-nowrap">(02)8677-2040</p>
-                          </div>
-                          <!-- 信箱 -->
-                          <div class="flex gap-2">
-                            <i class="fa-solid fa-envelope my-auto"></i>
-                            <p class="font-medium whitespace-nowrap">cc91273606@yahoo.com.tw</p>
-                          </div>
-                          <!-- 地址 -->
-                          <div class="flex gap-2">
-                            <i class="fa-solid fa-location-dot my-auto"></i>
-                            <p class="font-medium whitespace-nowrap">新北市鶯歌區建國路405巷11號</p>
-                          </div>
-                        </div>
-
-                      </div>
+                    <!-- 電話 02 -->
+                    <div class="flex gap-2">
+                      <i class="fa-solid fa-phone my-auto"></i>
+                      <p class="font-medium whitespace-nowrap">(02)8677-1761</p>
                     </div>
+                    <!-- 電話 03 -->
+                    <div class="flex gap-2">
+                      <i class="fa-solid fa-phone my-auto"></i>
+                      <p class="font-medium whitespace-nowrap">(02)8677-1762</p>
+                    </div>
+                  </div>
 
+                  <!-- 右 -->
+                  <div class="flex flex-col gap-4">
+                    <!-- 傳真 -->
+                    <div class="flex gap-2">
+                      <i class="fa-solid fa-fax my-auto"></i>
+                      <p class="font-medium whitespace-nowrap">(02)8677-2040</p>
+                    </div>
+                    <!-- 信箱 -->
+                    <div class="flex gap-2">
+                      <i class="fa-solid fa-envelope my-auto"></i>
+                      <p class="font-medium whitespace-nowrap">cc91273606@yahoo.com.tw</p>
+                    </div>
+                    <!-- 地址 -->
+                    <div class="flex gap-2">
+                      <i class="fa-solid fa-location-dot my-auto"></i>
+                      <p class="font-medium whitespace-nowrap">新北市鶯歌區建國路405巷11號</p>
+                    </div>
                   </div>
 
                 </div>
               </div>
+
+              <!-- 分隔線 -->
+              <hr class="border-b bborder-gray-200">
+
+
+              <!-- 交通方式區塊 Start -->
+              <!-- 標題 -->
+              <div class=" text-custom__primary text-2xl font-semibold mx-auto">
+                <p>交通方式</p>
+              </div>
+
+              <!-- 交通方式 -->
+              <div class="flex flex-col md:flex-row justify-between m-auto gap-8 md:gap-12">
+        
+                <!-- 火車 -->
+                <div class="w-full flex flex-col gap-4">
+                  <!-- 標題 -->
+                    <div class="flex flex-row gap-4 items-center text-lg font-medium text-gray-700">
+                      <i class="fa-solid fa-train-subway"></i>
+                      <p class="">
+                        搭乘火車
+                      </p>
+                    </div>
+
+                    <!-- 內文 -->
+                    <p class="text-gray-500">
+                      搭乘火車請《鶯歌火車站》下車，往後站建國路的方向出站
+                    </p>
+                </div>
+    
+                <!-- 巴士 -->
+                <div class="w-full flex flex-col gap-4">
+                  <!-- 標題 -->
+                    <div class="flex flex-row gap-4 items-center text-lg font-medium text-gray-700">
+                      <i class="fa-solid fa-bus-simple"></i>
+                      <p class="">
+                        搭乘新北新巴士 F656
+                      </p>
+                    </div>
+
+                    <!-- 內文 -->
+                    <p class="text-gray-500">
+                      搭乘新北新巴士 F656 鶯歌火車站上車坐到 - 永新巷口下車往建國路的方向走到底看到九指快手包子店，對面 405 巷建國園區進去左轉再右轉走到底左手邊即可
+                    </p>
+                </div>
+    
+            </div>
 
             </div>
           </div>
