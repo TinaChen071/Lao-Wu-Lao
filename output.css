@@ -2403,6 +2403,11 @@ select{
   padding-bottom: 1.5rem;
 }
 
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .pl-1{
   padding-left: 0.25rem;
 }
