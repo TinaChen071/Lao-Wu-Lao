@@ -1081,19 +1081,13 @@ select{
 }
 
 .service__card{
-  height: 5rem;
+  height: 100%;
   width: 100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   background-size: cover;
   background-position: center;
   text-align: center;
   transition-duration: 500ms;
-}
-
-@media (min-width: 768px){
-  .service__card{
-    height: 10rem;
-  }
 }
 
 .service__content{
@@ -2250,6 +2244,11 @@ select{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-slate-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-0{
   --tw-bg-opacity: 0;
 }
@@ -2335,6 +2334,11 @@ select{
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .pl-1{
