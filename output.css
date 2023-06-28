@@ -1717,6 +1717,10 @@ select{
   margin-top: -1px;
 }
 
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
 .mb-4{
   margin-bottom: 1rem;
 }
@@ -1763,10 +1767,6 @@ select{
 
 .mt-6{
   margin-top: 1.5rem;
-}
-
-.mb-12{
-  margin-bottom: 3rem;
 }
 
 .block{
@@ -1910,6 +1910,10 @@ select{
   width: 100%;
 }
 
+.w-5\/6{
+  width: 83.333333%;
+}
+
 .min-w-\[15rem\]{
   min-width: 15rem;
 }
@@ -1957,6 +1961,10 @@ select{
 
 .list-decimal{
   list-style-type: decimal;
+}
+
+.list-disc{
+  list-style-type: disc;
 }
 
 .grid-cols-1{
@@ -2045,10 +2053,6 @@ select{
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-1{
-  gap: 0.25rem;
 }
 
 .gap-x-3{
@@ -2327,13 +2331,12 @@ select{
   padding-bottom: 1.25rem;
 }
 
-.px-12{
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
 .pl-1{
   padding-left: 0.25rem;
+}
+
+.pl-10{
+  padding-left: 2.5rem;
 }
 
 .pl-4{
@@ -2354,6 +2357,10 @@ select{
 
 .pt-8{
   padding-top: 2rem;
+}
+
+.pl-5{
+  padding-left: 1.25rem;
 }
 
 .text-left{
@@ -2405,6 +2412,11 @@ select{
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-medium{
@@ -2481,11 +2493,6 @@ select{
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-slate-400{
-  --tw-text-opacity: 1;
-  color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
 .opacity-0{
