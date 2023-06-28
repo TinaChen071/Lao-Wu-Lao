@@ -15,6 +15,7 @@
     "tailwindcss": "^3.2.7"
   },
   "dependencies": {
+    "@preline/overlay": "^1.4.0",
     "@tailwindcss/line-clamp": "^0.4.4",
     "preline": "^1.9.0",
     "superfish": "^1.7.10",
