@@ -1436,14 +1436,11 @@ select{
 }
 
 .environment__img{
-  width: 100%;
   overflow: hidden;
   border-radius: 1rem;
   border-width: 2px;
   --tw-border-opacity: 1;
   border-color: rgb(198 210 146 / var(--tw-border-opacity));
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 @media (min-width: 768px){
@@ -3225,6 +3222,11 @@ html {
   .md\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .md\:line-clamp-none{
