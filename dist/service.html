@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
     <!-- favicon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon.ico">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     
 </head>
@@ -25,7 +27,7 @@
         <div class="relative flex items-center justify-end">
           
           <!-- Logo -->
-          <a href="#" class="vertical__center">
+          <a href="../index.html" class="vertical__center">
             <img src="../img/老吾老logo.png" class="h-10">
           </a>
 
@@ -50,7 +52,7 @@
         <div id="navbar-collapse-basic" class="hidden basis-full grow">
           <div class="flex flex-col gap-5 mt-5 ">
             <!-- BTN 01 -->
-            <a class="mobileMenu__BTN" href="#" aria-current="page">關於我們</a>
+            <a class="mobileMenu__BTN" href="../dist/about.html" aria-current="page">關於我們</a>
     
             <!-- BTN 02 -->
             <div class="hs-dropdown [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover]">
@@ -62,29 +64,29 @@
               </button>
     
               <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden z-10 sm:mt-3 bg-white sm:shadow-md rounded-lg p-2 ">
-                <a class="mobileSub__BTN" href="#">
+                <a class="mobileSub__BTN" href="../dist/news.html">
                   最新消息
                 </a>
-                <a class="mobileSub__BTN" href="#">
+                <a class="mobileSub__BTN" href="../dist/activity.html">
                   活動花絮
                 </a>
-                <a class="mobileSub__BTN" href="#">
+                <a class="mobileSub__BTN" href="../dist/environment.html">
                   環境介紹
                 </a>
-                <a class="mobileSub__BTN" href="#">
+                <a class="mobileSub__BTN" href="../dist/service.html">
                   服務介紹
                 </a>
-                <a class="mobileSub__BTN" href="#">
+                <a class="mobileSub__BTN" href="../dist/pricing.html">
                   收費標準
                 </a>
-                <a class="mobileSub__BTN" href="#">
+                <a class="mobileSub__BTN" href="../dist/checkin.html">
                   入住準備
                 </a>
               </div>
             </div>
     
             <!-- BTN 03 -->
-            <a class="mobileMenu__BTN" href="#">老吾老成員</a>
+            <a class="mobileMenu__BTN" href="../dist/member.html">老吾老成員</a>
 
             <!-- BTN 04 -->
             <a class="mobileMenu__BTN" href="#">我們的特色</a>
@@ -99,13 +101,13 @@
               </button>
     
               <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden z-10 sm:mt-3 bg-white sm:shadow-md rounded-lg p-2 ">
-                <a class="mobileSub__BTN" href="#">
+                <a class="mobileSub__BTN" href="../dist/contact.html">
                   聯絡我們
                 </a>
-                <a class="mobileSub__BTN" href="#">
+                <a class="mobileSub__BTN" href="../dist/location.html">
                   交通位置
                 </a>
-                <a class="mobileSub__BTN" href="#">
+                <a class="mobileSub__BTN" href="../dist/sexual-rule.html">
                   性騷擾防治措施
                 </a>
                 <a class="mobileSub__BTN" href="#">
@@ -128,11 +130,15 @@
     <div class="relative" id="slider">
       <div class=" h-40 md:h-60 lg:h-96 overflow-hidden ">
         <img src="../img/cover8.jpeg" alt="">
+        <!-- 波浪裝飾 -->
+        <div class="absolute md:hidden bottom-0">
+          <img src="../img/Flow2.png" alt="" class="w-full md:bg-custom__third">
+        </div>
       </div>
       
 
       <!-- Content Section Start -->
-      <div class="absolute top-24 md:top-40  w-full z-10">
+      <div class="absolute bottom-0 w-full z-10">
 
         <!-- Navbar Section Start -->
         <section class="hidden md:block z-10 " id="nav">
@@ -146,7 +152,7 @@
           <div class="relative bg-custom__third  py-4 md:pt-8 md:pb-8" >
 
             <!-- Logo -->
-            <a href="#" class="vertical__center z-20 bottom-full">
+            <a href="../index.html" class="vertical__center z-20 bottom-full">
               <img src="../img/老吾老logo.png" class="h-16">
             </a>
 
@@ -158,7 +164,7 @@
                   <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-center sm:mt-0 sm:pl-5">
                     
                     <!-- BTN 01 -->
-                    <a class="webMenu__BTN" href="#" aria-current="page">關於我們</a>
+                    <a class="webMenu__BTN" href="../dist/about.html" aria-current="page">關於我們</a>
             
                     <span class="text-custom__primary">/</span>
 
@@ -173,27 +179,27 @@
             
                       <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden  sm:mt-3 bg-white sm:shadow-md rounded-lg p-2 before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5 ">
                         <!-- 01 -->
-                        <a class="webSub__BTN" href="#">
+                        <a class="webSub__BTN" href="../dist/news.html">
                           最新消息
                         </a>
                         <!-- 02 -->
-                        <a class="webSub__BTN" href="#">
+                        <a class="webSub__BTN" href="../dist/activity.html">
                           活動花絮
                         </a>
                         <!-- 03 -->
-                        <a class="webSub__BTN" href="#">
+                        <a class="webSub__BTN" href="../dist/environment.html">
                           環境介紹
                         </a>
                         <!-- 04 -->
-                        <a class="webSub__BTN" href="#">
+                        <a class="webSub__BTN" href="../dist/service.html">
                           服務介紹
                         </a>
                         <!-- 05 -->
-                        <a class="webSub__BTN" href="#">
+                        <a class="webSub__BTN" href="../dist/pricing.html">
                           收費標準
                         </a>
                         <!-- 06 -->
-                        <a class="webSub__BTN" href="#">
+                        <a class="webSub__BTN" href="../dist/checkin.html">
                           入住準備
                         </a>
                       </div>
@@ -202,7 +208,7 @@
                     <span class="text-custom__primary">/</span>
 
                     <!-- BTN 03 -->
-                    <a class="webMenu__BTN" href="#" aria-current="page">老吾老成員</a>
+                    <a class="webMenu__BTN" href="../dist/member.html" aria-current="page">老吾老成員</a>
 
                     <span class="text-custom__primary">/</span>
 
@@ -222,15 +228,15 @@
             
                       <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden  sm:mt-3 bg-white sm:shadow-md rounded-lg p-2 before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5 ">
                         <!-- 01 -->
-                        <a class="webSub__BTN" href="#">
+                        <a class="webSub__BTN" href="../dist/contact.html">
                           聯絡我們
                         </a>
                         <!-- 02 -->
-                        <a class="webSub__BTN" href="#">
+                        <a class="webSub__BTN" href="../dist/location.html">
                           交通位置
                         </a>
                         <!-- 03 -->
-                        <a class="webSub__BTN" href="#">
+                        <a class="webSub__BTN" href="../dist/sexual-rule.html">
                           性騷擾防治措施
                         </a>
                         <!-- 04 -->
@@ -247,225 +253,222 @@
 
         </section>
         <!-- Navbar Section End -->
-
-
-        <!-- Info Section Start -->
-        <section class=" w-full z-30 sm:z-0 ">
-          
-          <!-- 波浪裝飾 -->
-          <div class="">
-            <img src="../img/Flow2.png" alt="" class="w-full md:bg-custom__third">
-          </div>
-
-          <!-- 內容區塊 -->
-          <div class="bg-white">
-            <div class="section flex flex-col gap-10">
-
-              <!-- Breadcrumbs -->
-              <nav class="flex" aria-label="Breadcrumb">
-                <ol role="list" class="flex items-center space-x-4">
-                  <li>
-                    <div>
-                      <a href="#" class="breadcrumb--default">
-                        <svg class="h-5 w-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                          <path fill-rule="evenodd" d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z" clip-rule="evenodd" />
-                        </svg>
-                        <span class="sr-only">Home</span>
-                      </a>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="flex items-center">
-                      <svg class="h-5 w-5 flex-shrink-0 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                        <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
-                      </svg>
-                      <a href="#" class="ml-4 breadcrumb--default ">鶯歌老吾老</a>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="flex items-center">
-                      <svg class="h-5 w-5 flex-shrink-0 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                        <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
-                      </svg>
-                      <a href="#" class="ml-4 breadcrumb--active" aria-current="page">服務介紹</a>
-                    </div>
-                  </li>
-                </ol>
-              </nav>
-
-              <!-- 標題 -->
-              <div class="sectionTitle__Wrapper">
-                <h2>SERVICE</h2>
-                <hr class="border-b border-custom__primary">
-                <h2>服務介紹</h2>
-              </div>
-              
-              <!-- 主視覺 -->
-              <div class="relative flex flex-col md:flex-row gap-4">
-
-                <!-- 圖片 -->
-                <img src="../img/service-main.png" alt="" class="">
-
-                <!-- 介紹 -->
-                <div class="md:absolute md:right-0 md:bottom-0 z-10 md:w-1/2 flex flex-col gap-4 md:gap-8 bg-white rounded-xl p-8 shadow-lg border-2 border-gray-100">
-                  <h2 class="md:text-xl font-semibold">24小時安心照顧體制</h2>
-                  <p>環境舒適，身心靈全面照顧，二十四小時專業的照護服務，讓長者入住老吾老擁有更好的生活品質。讓所有入住｢老吾老｣的長者們在我們專業護理、完整照護及細心、愛心、耐心全方位照顧下，皆能感受到如在家中的親情溫暖更勝家中的舒適與安全。</p>
-                  <p>每位老吾老員工的貼心、細心。護理師及照顧服務員24 小時陪伴與照護。護理、照服及社工跨專業整合提供個別生活計畫，如清潔沐浴更衣、個別化飲食、社交活動、休閒娛樂，臥床長輩定時翻拍背拍背、抽痰及鼻胃管、尿管衛生照護及移除訓練。</p>
-                </div>
-              </div>
-
-              <!-- 服務資訊卡 -->
-              <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-
-                <!-- 01 -->
-                <div class="service__infoCard">
-                  <!-- 圖片 -->
-                  <img src="../img/service7.png" alt="" class="mx-auto">
-                  <!-- 內文 -->
-                  <h3 class="text-lg font-semibold">護理服務</h3>
-                  <p class="text-gray-700 text-sm">二十四小時專業護理人員照護，給予身體評估、心理評估，擬定護理計畫，依個別需求提供個別的護理照護，每日測量血壓、脈博、呼吸、體溫、藥物給予、傷口照護等。</p>
-                </div>
-
-                <!-- 02 -->
-                <div class="service__infoCard">
-                  <!-- 圖片 -->
-                  <img src="../img/service1.png" alt="" class="mx-auto">
-                  <!-- 內文 -->
-                  <h3 class="text-lg font-semibold">醫療服務</h3>
-                  <p class="text-gray-700 text-sm">專業醫師團隊，為長輩提供每月巡診服務，詳細紀錄健康訊息。居家護理師定期更換管路，如需醫院門診就醫，本機構可協助安排人員陪同。</p>
-                </div>
-
-                <!-- 03 -->
-                <div class="service__infoCard">
-                  <!-- 圖片 -->
-                  <img src="../img/service2.png" alt="" class="mx-auto">
-                  <!-- 內文 -->
-                  <h3 class="text-lg font-semibold">營養照顧</h3>
-                  <p class="text-gray-700 text-sm">按不同飲食類別，由營養師設計，提供個別化飲食，給予合適餐點。</p>
-                </div>
-
-                <!-- 04 -->
-                <div class="service__infoCard">
-                  <!-- 圖片 -->
-                  <img src="../img/service3.png" alt="" class="mx-auto">
-                  <!-- 內文 -->
-                  <h3 class="text-lg font-semibold">社工服務</h3>
-                  <p class="text-gray-700 text-sm">各項社會福利諮詢、入住長輩適應輔導、辦理社團活動、文康休閒活動、慶生會、家屬座談會、含年節慶典活動安排社團或志工，前來關心、慰問。</p>
-                </div>
-
-                <!-- 05 -->
-                <div class="service__infoCard">
-                  <!-- 圖片 -->
-                  <img src="../img/service4.png" alt="" class="mx-auto">
-                  <!-- 內文 -->
-                  <h3 class="text-lg font-semibold">生活照顧</h3>
-                  <p class="text-gray-700 text-sm">二十四小時專業照顧員，給予飲食起居、上下床、換洗、沐浴、餵食、儀容整理、換床單、翻身、拍背等照顧。</p>
-                </div>
-
-                <!-- 06 -->
-                <div class="service__infoCard">
-                  <!-- 圖片 -->
-                  <img src="../img/service5.png" alt="" class="mx-auto">
-                  <!-- 內文 -->
-                  <h3 class="text-lg font-semibold">物理治療師</h3>
-                  <p class="text-gray-700 text-sm">評估、規劃及協助長者進行康復計劃，以幫助長者改善或恢復運動能力及緩解疼痛，讓長輩在機構內也能使用到如醫院設備的物理治療服務。</p>
-                </div>
-
-                <!-- 07 -->
-                <div class="service__infoCard">
-                  <!-- 圖片 -->
-                  <img src="../img/service6.png" alt="" class="mx-auto">
-                  <!-- 內文 -->
-                  <h3 class="text-lg font-semibold">行政團隊</h3>
-                  <p class="text-gray-700 text-sm">為長輩營造安全、舒適的居住環境。讓長輩住的安心、放心、開心。</p>
-                </div>
-
-              </div>
-              
-            </div>
-          </div>
-
-
-          <!-- Footer Start --> 
-          <footer class="relative bg-custom__third">
-
-            <!-- To top BTN -->
-            <button type="button" onclick="topFunction()" class="toTop__BTN" id="toTop">
-              <i class="fa-solid fa-arrow-up"></i>
-              <p>Top</p>
-            </button>
-
-            <!-- 波浪裝飾 -->
-            <div class="">
-              <img src="../img/Flow4.png" alt="" class="w-full bg-white">
-            </div>
-
-            <!-- Content -->
-            <div class="section font-semibold ">
-              <div class="flex md:gap-16 items-center">
-
-                <!-- Contact Section-->
-                <div class="flex mx-auto justify-center lg:justify-start gap-8 w-full">
-
-                  <!-- Logo -->
-                  <a href="#" class="h-12 w-12 md:h-16 md:w-16 my-auto">
-                    <img src="../img/老吾老logo.png" class="">
-                  </a>
-
-                  <!-- 聯絡資訊 -->
-                    <div class="text-custom__primary text-sm md:text-base flex flex-col gap-2 md:gap-4 my-auto">
-
-                      <!-- 電話 -->
-                      <div class="flex gap-2">
-                        <i class="fa-solid fa-phone my-auto"></i>
-                        <p class="font-medium">(02)8677-1760</p>
-                      </div>
-
-                      <!-- 信箱 -->
-                      <div class="flex gap-2">
-                        <i class="fa-solid fa-envelope my-auto"></i>
-                        <p class="font-medium">cc91273606@yahoo.com.tw</p>
-                      </div>
-
-                      <!-- 地址 -->
-                      <div class="flex gap-2">
-                        <i class="fa-solid fa-location-dot my-auto"></i>
-                        <p class="font-medium">新北市鶯歌區建國路405巷11號</p>
-                      </div>
-
-                    </div>
-                </div>
-
-                <!-- Menu -->
-                <div class="hidden md:block w-full">
-                  <div class="grid md:grid-cols-2  lg:grid-cols-5 gap-4 text-custom__primary">
-                    <a href="" class="footer__menu">關於我們</a>
-                    <a href="" class="footer__menu">鶯歌老吾老</a>
-                    <a href="" class="footer__menu">老吾老成員</a>
-                    <a href="" class="footer__menu">我們的特色</a>
-                    <a href="" class="footer__menu">客服專區</a>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Copyright -->
-            <div class="border-t border-custom__secondary py-4 md:py-8 text-center">
-              <p class="text-sm md:text-base text-custom__primary font-semibold">&copy; 2023 新北市私立老吾老護理之家.</p>
-            </div>
-          </footer>
-          <!-- Footer End -->
-
-          
-        </section>
-        <!-- Info Section End -->
         
       </div>
       <!-- Content Section End -->
 
     </div>
     <!-- Slider End -->
+
+    <!-- Info Section Start -->
+    <section class=" w-full z-30 sm:z-0 ">
+          
+      <!-- 波浪裝飾 -->
+      <div class="">
+        <img src="../img/Flow2.png" alt="" class="w-full md:bg-custom__third">
+      </div>
+
+      <!-- 內容區塊 -->
+      <div class="bg-white">
+        <div class="section flex flex-col gap-10">
+
+          <!-- Breadcrumbs -->
+          <nav class="flex" aria-label="Breadcrumb">
+            <ol role="list" class="flex items-center space-x-4">
+              <li>
+                <div>
+                  <a href="../index.html" class="breadcrumb--default">
+                    <svg class="h-5 w-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z" clip-rule="evenodd" />
+                    </svg>
+                    <span class="sr-only">Home</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="flex items-center">
+                  <svg class="h-5 w-5 flex-shrink-0 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+                  </svg>
+                  <a href="../dist/news.html" class="ml-4 breadcrumb--default ">鶯歌老吾老</a>
+                </div>
+              </li>
+              <li>
+                <div class="flex items-center">
+                  <svg class="h-5 w-5 flex-shrink-0 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+                  </svg>
+                  <a href="#" class="ml-4 breadcrumb--active" aria-current="page">服務介紹</a>
+                </div>
+              </li>
+            </ol>
+          </nav>
+
+          <!-- 標題 -->
+          <div class="sectionTitle__Wrapper">
+            <h2>SERVICE</h2>
+            <hr class="border-b border-custom__primary">
+            <h2>服務介紹</h2>
+          </div>
+          
+          <!-- 主視覺 -->
+          <div class="relative flex flex-col md:flex-row gap-4">
+
+            <!-- 圖片 -->
+            <img src="../img/service-main.png" alt="" class="" data-aos="fade-right">
+
+            <!-- 介紹 -->
+            <div class="md:absolute md:right-0 md:bottom-0 z-10 md:w-1/2 flex flex-col gap-4 md:gap-8 bg-white rounded-xl p-8 shadow-lg border-2 border-gray-100" data-aos="fade-left">
+              <h2 class="md:text-xl font-semibold">24小時安心照顧體制</h2>
+              <p>環境舒適，身心靈全面照顧，二十四小時專業的照護服務，讓長者入住老吾老擁有更好的生活品質。讓所有入住｢老吾老｣的長者們在我們專業護理、完整照護及細心、愛心、耐心全方位照顧下，皆能感受到如在家中的親情溫暖更勝家中的舒適與安全。</p>
+              <p>每位老吾老員工的貼心、細心。護理師及照顧服務員24 小時陪伴與照護。護理、照服及社工跨專業整合提供個別生活計畫，如清潔沐浴更衣、個別化飲食、社交活動、休閒娛樂，臥床長輩定時翻拍背拍背、抽痰及鼻胃管、尿管衛生照護及移除訓練。</p>
+            </div>
+          </div>
+
+          <!-- 服務資訊卡 -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+
+            <!-- 01 -->
+            <div class="service__infoCard" data-aos="flip-left">
+              <!-- 圖片 -->
+              <img src="../img/service7.png" alt="" class="mx-auto">
+              <!-- 內文 -->
+              <h3 class="text-lg font-semibold">護理服務</h3>
+              <p class="text-gray-700 text-sm">二十四小時專業護理人員照護，給予身體評估、心理評估，擬定護理計畫，依個別需求提供個別的護理照護，每日測量血壓、脈博、呼吸、體溫、藥物給予、傷口照護等。</p>
+            </div>
+
+            <!-- 02 -->
+            <div class="service__infoCard" data-aos="flip-left">
+              <!-- 圖片 -->
+              <img src="../img/service1.png" alt="" class="mx-auto">
+              <!-- 內文 -->
+              <h3 class="text-lg font-semibold">醫療服務</h3>
+              <p class="text-gray-700 text-sm">專業醫師團隊，為長輩提供每月巡診服務，詳細紀錄健康訊息。居家護理師定期更換管路，如需醫院門診就醫，本機構可協助安排人員陪同。</p>
+            </div>
+
+            <!-- 03 -->
+            <div class="service__infoCard" data-aos="flip-left">
+              <!-- 圖片 -->
+              <img src="../img/service2.png" alt="" class="mx-auto">
+              <!-- 內文 -->
+              <h3 class="text-lg font-semibold">營養照顧</h3>
+              <p class="text-gray-700 text-sm">按不同飲食類別，由營養師設計，提供個別化飲食，給予合適餐點。</p>
+            </div>
+
+            <!-- 04 -->
+            <div class="service__infoCard" data-aos="flip-left">
+              <!-- 圖片 -->
+              <img src="../img/service3.png" alt="" class="mx-auto">
+              <!-- 內文 -->
+              <h3 class="text-lg font-semibold">社工服務</h3>
+              <p class="text-gray-700 text-sm">各項社會福利諮詢、入住長輩適應輔導、辦理社團活動、文康休閒活動、慶生會、家屬座談會、含年節慶典活動安排社團或志工，前來關心、慰問。</p>
+            </div>
+
+            <!-- 05 -->
+            <div class="service__infoCard" data-aos="flip-left">
+              <!-- 圖片 -->
+              <img src="../img/service4.png" alt="" class="mx-auto">
+              <!-- 內文 -->
+              <h3 class="text-lg font-semibold">生活照顧</h3>
+              <p class="text-gray-700 text-sm">二十四小時專業照顧員，給予飲食起居、上下床、換洗、沐浴、餵食、儀容整理、換床單、翻身、拍背等照顧。</p>
+            </div>
+
+            <!-- 06 -->
+            <div class="service__infoCard" data-aos="flip-left">
+              <!-- 圖片 -->
+              <img src="../img/service5.png" alt="" class="mx-auto">
+              <!-- 內文 -->
+              <h3 class="text-lg font-semibold">物理治療師</h3>
+              <p class="text-gray-700 text-sm">評估、規劃及協助長者進行康復計劃，以幫助長者改善或恢復運動能力及緩解疼痛，讓長輩在機構內也能使用到如醫院設備的物理治療服務。</p>
+            </div>
+
+            <!-- 07 -->
+            <div class="service__infoCard" data-aos="flip-left">
+              <!-- 圖片 -->
+              <img src="../img/service6.png" alt="" class="mx-auto">
+              <!-- 內文 -->
+              <h3 class="text-lg font-semibold">行政團隊</h3>
+              <p class="text-gray-700 text-sm">為長輩營造安全、舒適的居住環境。讓長輩住的安心、放心、開心。</p>
+            </div>
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+    <!-- Info Section End -->
+
+    <!-- Footer Start --> 
+    <footer class="relative bg-custom__third">
+
+      <!-- To top BTN -->
+      <button type="button" onclick="topFunction()" class="toTop__BTN" id="toTop">
+        <i class="fa-solid fa-arrow-up"></i>
+        <p>Top</p>
+      </button>
+
+      <!-- 波浪裝飾 -->
+      <div class="">
+        <img src="../img/Flow4.png" alt="" class="w-full bg-white">
+      </div>
+
+      <!-- Content -->
+      <div class="section font-semibold ">
+        <div class="flex md:gap-16 items-center">
+
+          <!-- Contact Section-->
+          <div class="flex mx-auto justify-center lg:justify-start gap-8 w-full">
+
+            <!-- Logo -->
+            <a href="../index.html" class="h-12 w-12 md:h-16 md:w-16 my-auto">
+              <img src="../img/老吾老logo.png" class="">
+            </a>
+
+            <!-- 聯絡資訊 -->
+              <div class="text-custom__primary text-sm md:text-base flex flex-col gap-2 md:gap-4 my-auto">
+
+                <!-- 電話 -->
+                <div class="flex gap-2">
+                  <i class="fa-solid fa-phone my-auto"></i>
+                  <p class="font-medium">(02)8677-1760</p>
+                </div>
+
+                <!-- 信箱 -->
+                <div class="flex gap-2">
+                  <i class="fa-solid fa-envelope my-auto"></i>
+                  <p class="font-medium">cc91273606@yahoo.com.tw</p>
+                </div>
+
+                <!-- 地址 -->
+                <div class="flex gap-2">
+                  <i class="fa-solid fa-location-dot my-auto"></i>
+                  <p class="font-medium">新北市鶯歌區建國路405巷11號</p>
+                </div>
+
+              </div>
+          </div>
+
+          <!-- Menu -->
+          <div class="hidden md:block w-full">
+            <div class="grid md:grid-cols-2  lg:grid-cols-5 gap-4 text-custom__primary">
+              <a href="../dist/about.html" class="footer__menu">關於我們</a>
+              <a href="../dist/news.html" class="footer__menu">鶯歌老吾老</a>
+              <a href="../dist/member.html" class="footer__menu">老吾老成員</a>
+              <a href="#" class="footer__menu">我們的特色</a>
+              <a href="../dist/contact.html" class="footer__menu">客服專區</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="border-t border-custom__secondary py-4 md:py-8 text-center">
+        <p class="text-sm md:text-base text-custom__primary font-semibold">&copy; 2023 新北市私立老吾老護理之家.</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
 
 
   </section>
@@ -484,6 +487,12 @@
     
   <!-- Font awesome -->
   <script src="https://kit.fontawesome.com/a8b708c9db.js" crossorigin="anonymous"></script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
       
 </body>
 </html>

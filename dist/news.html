@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
     <!-- favicon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon.ico">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     
 </head>
@@ -25,7 +27,7 @@
         <div class="relative flex items-center justify-end">
           
           <!-- Logo -->
-          <a href="#" class="vertical__center">
+          <a href="../index.html" class="vertical__center">
             <img src="../img/老吾老logo.png" class="h-10">
           </a>
 
@@ -50,7 +52,7 @@
         <div id="navbar-collapse-basic" class="hidden basis-full grow">
           <div class="flex flex-col gap-5 mt-5 ">
             <!-- BTN 01 -->
-            <a class="mobileMenu__BTN" href="#" aria-current="page">關於我們</a>
+            <a class="mobileMenu__BTN" href="../dist/about.html" aria-current="page">關於我們</a>
     
             <!-- BTN 02 -->
             <div class="hs-dropdown [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover]">
@@ -62,29 +64,29 @@
               </button>
     
               <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden z-10 sm:mt-3 bg-white sm:shadow-md rounded-lg p-2 ">
-                <a class="mobileSub__BTN" href="#">
+                <a class="mobileSub__BTN" href="../dist/news.html">
                   最新消息
                 </a>
-                <a class="mobileSub__BTN" href="#">
+                <a class="mobileSub__BTN" href="../dist/activity.html">
                   活動花絮
                 </a>
-                <a class="mobileSub__BTN" href="#">
+                <a class="mobileSub__BTN" href="../dist/environment.html">
                   環境介紹
                 </a>
-                <a class="mobileSub__BTN" href="#">
+                <a class="mobileSub__BTN" href="../dist/service.html">
                   服務介紹
                 </a>
-                <a class="mobileSub__BTN" href="#">
+                <a class="mobileSub__BTN" href="../dist/pricing.html">
                   收費標準
                 </a>
-                <a class="mobileSub__BTN" href="#">
+                <a class="mobileSub__BTN" href="../dist/checkin.html">
                   入住準備
                 </a>
               </div>
             </div>
     
             <!-- BTN 03 -->
-            <a class="mobileMenu__BTN" href="#">老吾老成員</a>
+            <a class="mobileMenu__BTN" href="../dist/member.html">老吾老成員</a>
 
             <!-- BTN 04 -->
             <a class="mobileMenu__BTN" href="#">我們的特色</a>
@@ -99,13 +101,13 @@
               </button>
     
               <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden z-10 sm:mt-3 bg-white sm:shadow-md rounded-lg p-2 ">
-                <a class="mobileSub__BTN" href="#">
+                <a class="mobileSub__BTN" href="../dist/contact.html">
                   聯絡我們
                 </a>
-                <a class="mobileSub__BTN" href="#">
+                <a class="mobileSub__BTN" href="../dist/location.html">
                   交通位置
                 </a>
-                <a class="mobileSub__BTN" href="#">
+                <a class="mobileSub__BTN" href="../dist/sexual-rule.html">
                   性騷擾防治措施
                 </a>
                 <a class="mobileSub__BTN" href="#">
@@ -128,11 +130,15 @@
     <div class="relative" id="slider">
       <div class=" h-40 md:h-60 lg:h-96 overflow-hidden ">
         <img src="../img/cover8.jpeg" alt="">
+        <!-- 波浪裝飾 -->
+        <div class="absolute md:hidden bottom-0">
+          <img src="../img/Flow2.png" alt="" class="w-full md:bg-custom__third">
+        </div>
       </div>
       
 
       <!-- Content Section Start -->
-      <div class="absolute top-24 md:top-40 w-full  z-10">
+      <div class="absolute bottom-0 w-full  z-10">
 
         <!-- Navbar Section Start -->
         <section class="hidden md:block z-10 " id="nav">
@@ -146,7 +152,7 @@
           <div class="relative bg-custom__third  py-4 md:pt-8 md:pb-8" >
 
             <!-- Logo -->
-            <a href="#" class="vertical__center z-20 bottom-full">
+            <a href="../index.html" class="vertical__center z-20 bottom-full">
               <img src="../img/老吾老logo.png" class="h-16">
             </a>
 
@@ -158,7 +164,7 @@
                   <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-center sm:mt-0 sm:pl-5">
                     
                     <!-- BTN 01 -->
-                    <a class="webMenu__BTN" href="#" aria-current="page">關於我們</a>
+                    <a class="webMenu__BTN" href="../dist/about.html" aria-current="page">關於我們</a>
             
                     <span class="text-custom__primary">/</span>
 
@@ -173,27 +179,27 @@
             
                       <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden  sm:mt-3 bg-white sm:shadow-md rounded-lg p-2 before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5 ">
                         <!-- 01 -->
-                        <a class="webSub__BTN" href="#">
+                        <a class="webSub__BTN" href="../dist/news.html">
                           最新消息
                         </a>
                         <!-- 02 -->
-                        <a class="webSub__BTN" href="#">
+                        <a class="webSub__BTN" href="../dist/activity.html">
                           活動花絮
                         </a>
                         <!-- 03 -->
-                        <a class="webSub__BTN" href="#">
+                        <a class="webSub__BTN" href="../dist/environment.html">
                           環境介紹
                         </a>
                         <!-- 04 -->
-                        <a class="webSub__BTN" href="#">
+                        <a class="webSub__BTN" href="../dist/service.html">
                           服務介紹
                         </a>
                         <!-- 05 -->
-                        <a class="webSub__BTN" href="#">
+                        <a class="webSub__BTN" href="../dist/pricing.html">
                           收費標準
                         </a>
                         <!-- 06 -->
-                        <a class="webSub__BTN" href="#">
+                        <a class="webSub__BTN" href="../dist/checkin.html">
                           入住準備
                         </a>
                       </div>
@@ -202,7 +208,7 @@
                     <span class="text-custom__primary">/</span>
 
                     <!-- BTN 03 -->
-                    <a class="webMenu__BTN" href="#" aria-current="page">老吾老成員</a>
+                    <a class="webMenu__BTN" href="../dist/member.html" aria-current="page">老吾老成員</a>
 
                     <span class="text-custom__primary">/</span>
 
@@ -222,15 +228,15 @@
             
                       <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden  sm:mt-3 bg-white sm:shadow-md rounded-lg p-2 before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5 ">
                         <!-- 01 -->
-                        <a class="webSub__BTN" href="#">
+                        <a class="webSub__BTN" href="../dist/contact.html">
                           聯絡我們
                         </a>
                         <!-- 02 -->
-                        <a class="webSub__BTN" href="#">
+                        <a class="webSub__BTN" href="../dist/location.html">
                           交通位置
                         </a>
                         <!-- 03 -->
-                        <a class="webSub__BTN" href="#">
+                        <a class="webSub__BTN" href="../dist/sexual-rule.html">
                           性騷擾防治措施
                         </a>
                         <!-- 04 -->
@@ -247,326 +253,6 @@
 
         </section>
         <!-- Navbar Section End -->
-
-
-        <!-- Info Section Start -->
-        <section class=" w-full z-30 sm:z-0 ">
-          
-          <!-- 波浪裝飾 -->
-          <div class="">
-            <img src="../img/Flow2.png" alt="" class="w-full md:bg-custom__third">
-          </div>
-
-          <!-- 內容區塊 -->
-          <div class="bg-white">
-            <div class="section flex flex-col gap-10">
-
-              <!-- Breadcrumbs -->
-              <nav class="flex" aria-label="Breadcrumb">
-                <ol role="list" class="flex items-center space-x-4">
-                  <li>
-                    <div>
-                      <a href="#" class="breadcrumb--default">
-                        <svg class="h-5 w-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                          <path fill-rule="evenodd" d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z" clip-rule="evenodd" />
-                        </svg>
-                        <span class="sr-only">Home</span>
-                      </a>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="flex items-center">
-                      <svg class="h-5 w-5 flex-shrink-0 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                        <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
-                      </svg>
-                      <a href="#" class="ml-4 breadcrumb--default ">鶯歌老吾老</a>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="flex items-center">
-                      <svg class="h-5 w-5 flex-shrink-0 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                        <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
-                      </svg>
-                      <a href="#" class="ml-4 breadcrumb--active" aria-current="page">最新消息</a>
-                    </div>
-                  </li>
-                </ol>
-              </nav>
-
-              <!-- 標題 -->
-              <div class="sectionTitle__Wrapper">
-                <h2>NEWS</h2>
-                <hr class="border-b border-custom__primary">
-                <h2>最新消息</h2>
-              </div>
-              
-              <!-- 最新消息卡片 -->
-              <div class="bg-white">
-                <div class=" flex flex-col gap-12 md:gap-20 ">
-
-                  <!-- 01 -->
-                  <div class="flex gap-4 md:gap-12">
-                    <!-- 照片 -->
-                    <div class="news__img">
-                      <img src="../img/cover1.jpeg" alt="" class="h-full object-cover">
-                    </div>
-      
-                    <!-- 內容 -->
-                    <div class="news__contentWrapper">
-                      
-                      <div class="flex flex-col gap-4 md:gap-8 ">
-                        <!-- 標題 -->
-                          <h1 class="news__title">
-                            <span class="news__num">01</span>
-                            標題標題
-                          </h1>
-      
-                          <!-- 時間 -->
-                          <p class="text-custom__primary text-sm">
-                            2023.05.12
-                          </p>
-      
-                          <!-- 內文 -->
-                          <p class="news__content">
-                            在新冠肺炎席捲全球的當下，您是否飽受睡眠障礙之苦？明明躺在溫暖的被窩裡，好似有進入夢鄉，隔天醒來後卻仍覺得沒精神、思考效率低迷，睡眠障礙不僅僅會影響工作表現與婚姻關係，更會增加罹患心血管疾病的機率，萬萬不可等閒視之。
-                          </p>
-                      </div>
-      
-                      <!-- 查看更多 BTN -->
-                      <a href="#" class=" ">
-                        <button type="button" class="more__BTN">
-                          查看更多
-                          <i class="fa-solid fa-arrow-right"></i>
-                        </button>
-                      </a>
-      
-                    </div>
-                  </div>
-      
-                  <!-- 02 -->
-                  <div class="flex gap-4 md:gap-12">
-                    <!-- 照片 -->
-                    <div class="news__img order-2">
-                      <img src="../img/cover1.jpeg" alt="" class="h-full object-cover">
-                    </div>
-      
-                    <!-- 內容 -->
-                    <div class="news__contentWrapper order-1">
-                      
-                      <div class="flex flex-col gap-4 md:gap-8 ">
-                        <!-- 標題 -->
-                          <h1 class="news__title">
-                            <span class="news__num">01</span>
-                            標題標題
-                          </h1>
-      
-                          <!-- 時間 -->
-                          <p class="text-custom__primary text-sm">
-                            2023.05.12
-                          </p>
-      
-                          <!-- 內文 -->
-                          <p class="news__content">
-                            在新冠肺炎席捲全球的當下，您是否飽受睡眠障礙之苦？明明躺在溫暖的被窩裡，好似有進入夢鄉，隔天醒來後卻仍覺得沒精神、思考效率低迷，睡眠障礙不僅僅會影響工作表現與婚姻關係，更會增加罹患心血管疾病的機率，萬萬不可等閒視之。
-                          </p>
-                      </div>
-      
-                      <!-- 查看更多 BTN -->
-                      <a href="#" class=" ">
-                        <button type="button" class="more__BTN">
-                          查看更多
-                          <i class="fa-solid fa-arrow-right"></i>
-                        </button>
-                      </a>
-      
-                    </div>
-                  </div>
-      
-                  <!-- 03 -->
-                  <div class="flex gap-4 md:gap-12">
-                    <!-- 照片 -->
-                    <div class="news__img">
-                      <img src="../img/cover1.jpeg" alt="" class="h-full object-cover">
-                    </div>
-      
-                    <!-- 內容 -->
-                    <div class="news__contentWrapper">
-                      
-                      <div class="flex flex-col gap-4 md:gap-8 ">
-                        <!-- 標題 -->
-                          <h1 class="news__title">
-                            <span class="news__num">01</span>
-                            標題標題
-                          </h1>
-      
-                          <!-- 時間 -->
-                          <p class="text-custom__primary text-sm">
-                            2023.05.12
-                          </p>
-      
-                          <!-- 內文 -->
-                          <p class="news__content">
-                            在新冠肺炎席捲全球的當下，您是否飽受睡眠障礙之苦？明明躺在溫暖的被窩裡，好似有進入夢鄉，隔天醒來後卻仍覺得沒精神、思考效率低迷，睡眠障礙不僅僅會影響工作表現與婚姻關係，更會增加罹患心血管疾病的機率，萬萬不可等閒視之。
-                          </p>
-                      </div>
-      
-                      <!-- 查看更多 BTN -->
-                      <a href="#" class=" ">
-                        <button type="button" class="more__BTN">
-                          查看更多
-                          <i class="fa-solid fa-arrow-right"></i>
-                        </button>
-                      </a>
-      
-                    </div>
-                  </div>
-
-                  <!-- 04 -->
-                  <div class="flex gap-4 md:gap-12">
-                    <!-- 照片 -->
-                    <div class="news__img order-2">
-                      <img src="../img/cover1.jpeg" alt="" class="h-full object-cover">
-                    </div>
-      
-                    <!-- 內容 -->
-                    <div class="news__contentWrapper order-1">
-                      
-                      <div class="flex flex-col gap-4 md:gap-8 ">
-                        <!-- 標題 -->
-                          <h1 class="news__title">
-                            <span class="news__num">01</span>
-                            標題標題
-                          </h1>
-      
-                          <!-- 時間 -->
-                          <p class="text-custom__primary text-sm">
-                            2023.05.12
-                          </p>
-      
-                          <!-- 內文 -->
-                          <p class="news__content">
-                            在新冠肺炎席捲全球的當下，您是否飽受睡眠障礙之苦？明明躺在溫暖的被窩裡，好似有進入夢鄉，隔天醒來後卻仍覺得沒精神、思考效率低迷，睡眠障礙不僅僅會影響工作表現與婚姻關係，更會增加罹患心血管疾病的機率，萬萬不可等閒視之。
-                          </p>
-                      </div>
-      
-                      <!-- 查看更多 BTN -->
-                      <a href="#" class=" ">
-                        <button type="button" class="more__BTN">
-                          查看更多
-                          <i class="fa-solid fa-arrow-right"></i>
-                        </button>
-                      </a>
-      
-                    </div>
-                  </div>
-      
-                </div>
-              </div>
-
-              <!-- 頁碼 -->
-              <nav class="flex items-center justify-between border-t border-gray-200 px-4 sm:px-0">
-                <div class="-mt-px flex w-0 flex-1 group">
-                  <a href="#" class="inline-flex items-center pr-1 pt-4 text-sm font-medium text-gray-500 group-hover:text-custom__secondary">
-                    <i class="fa-solid fa-arrow-left mr-3  text-gray-400 group-hover:text-custom__secondary"></i>
-                    上一頁
-                  </a>
-                </div>
-                <div class="hidden md:-mt-px md:flex pt-4">
-                  <a href="#" class="pagination--active ">1</a>
-                  <a href="#" class="pagination--default">2</a>
-                  <a href="#" class="pagination--default">3</a>
-                  <span class="inline-flex items-center px-4  text-sm font-medium text-gray-500">...</span>
-                  <a href="#" class="pagination--default">8</a>
-                  <a href="#" class="pagination--default">9</a>
-                  <a href="#" class="pagination--default">10</a>
-                </div>
-                <div class="-mt-px flex w-0 flex-1 justify-end group">
-                  <a href="#" class="inline-flex items-center pl-1 pt-4 text-sm font-medium text-gray-500 group-hover:text-custom__secondary">
-                    下一頁
-                    <i class="fa-solid fa-arrow-right ml-3 text-gray-400 group-hover:text-custom__secondary"></i>
-                  </a>
-                </div>
-              </nav>
-              
-              
-            </div>
-          </div>
-
-
-          <!-- Footer Start --> 
-          <footer class="relative bg-custom__third">
-
-            <!-- To top BTN -->
-            <button type="button" onclick="topFunction()" class="toTop__BTN" id="toTop">
-              <i class="fa-solid fa-arrow-up"></i>
-              <p>Top</p>
-            </button>
-
-            <!-- 波浪裝飾 -->
-            <div class="">
-              <img src="../img/Flow4.png" alt="" class="w-full bg-white">
-            </div>
-
-            <!-- Content -->
-            <div class="section font-semibold ">
-              <div class="flex md:gap-16 items-center">
-
-                <!-- Contact Section-->
-                <div class="flex mx-auto justify-center lg:justify-start gap-8 w-full">
-
-                  <!-- Logo -->
-                  <a href="#" class="h-12 w-12 md:h-16 md:w-16 my-auto">
-                    <img src="../img/老吾老logo.png" class="">
-                  </a>
-
-                  <!-- 聯絡資訊 -->
-                    <div class="text-custom__primary text-sm md:text-base flex flex-col gap-2 md:gap-4 my-auto">
-
-                      <!-- 電話 -->
-                      <div class="flex gap-2">
-                        <i class="fa-solid fa-phone my-auto"></i>
-                        <p class="font-medium">(02)8677-1760</p>
-                      </div>
-
-                      <!-- 信箱 -->
-                      <div class="flex gap-2">
-                        <i class="fa-solid fa-envelope my-auto"></i>
-                        <p class="font-medium">cc91273606@yahoo.com.tw</p>
-                      </div>
-
-                      <!-- 地址 -->
-                      <div class="flex gap-2">
-                        <i class="fa-solid fa-location-dot my-auto"></i>
-                        <p class="font-medium">新北市鶯歌區建國路405巷11號</p>
-                      </div>
-
-                    </div>
-                </div>
-
-                <!-- Menu -->
-                <div class="hidden md:block w-full">
-                  <div class="grid md:grid-cols-2  lg:grid-cols-5 gap-4 text-custom__primary">
-                    <a href="" class="footer__menu">關於我們</a>
-                    <a href="" class="footer__menu">鶯歌老吾老</a>
-                    <a href="" class="footer__menu">老吾老成員</a>
-                    <a href="" class="footer__menu">我們的特色</a>
-                    <a href="" class="footer__menu">客服專區</a>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Copyright -->
-            <div class="border-t border-custom__secondary py-4 md:py-8 text-center">
-              <p class="text-sm md:text-base text-custom__primary font-semibold">&copy; 2023 新北市私立老吾老護理之家.</p>
-            </div>
-          </footer>
-          <!-- Footer End -->
-
-          
-        </section>
-        <!-- Info Section End -->
         
       </div>
       <!-- Content Section End -->
@@ -574,6 +260,322 @@
     </div>
     <!-- Slider End -->
 
+    <!-- Info Section Start -->
+    <section class=" w-full z-30 sm:z-0 ">
+          
+      <!-- 波浪裝飾 -->
+      <div class="">
+        <img src="../img/Flow2.png" alt="" class="w-full md:bg-custom__third">
+      </div>
+
+      <!-- 內容區塊 -->
+      <div class="bg-white">
+        <div class="section flex flex-col gap-10">
+
+          <!-- Breadcrumbs -->
+          <nav class="flex" aria-label="Breadcrumb">
+            <ol role="list" class="flex items-center space-x-4">
+              <li>
+                <div>
+                  <a href="../index.html" class="breadcrumb--default">
+                    <svg class="h-5 w-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z" clip-rule="evenodd" />
+                    </svg>
+                    <span class="sr-only">Home</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="flex items-center">
+                  <svg class="h-5 w-5 flex-shrink-0 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+                  </svg>
+                  <a href="../dist/news.html" class="ml-4 breadcrumb--default ">鶯歌老吾老</a>
+                </div>
+              </li>
+              <li>
+                <div class="flex items-center">
+                  <svg class="h-5 w-5 flex-shrink-0 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+                  </svg>
+                  <a href="#" class="ml-4 breadcrumb--active" aria-current="page">最新消息</a>
+                </div>
+              </li>
+            </ol>
+          </nav>
+
+          <!-- 標題 -->
+          <div class="sectionTitle__Wrapper">
+            <h2>NEWS</h2>
+            <hr class="border-b border-custom__primary">
+            <h2>最新消息</h2>
+          </div>
+          
+          <!-- 最新消息卡片 -->
+          <div class="bg-white">
+            <div class=" flex flex-col gap-12 md:gap-20 ">
+
+              <!-- 01 -->
+              <div class="flex gap-4 md:gap-12" data-aos="fade-right">
+                <!-- 照片 -->
+                <div class="news__img">
+                  <img src="../img/cover1.jpeg" alt="" class="h-full object-cover">
+                </div>
+  
+                <!-- 內容 -->
+                <div class="news__contentWrapper">
+                  
+                  <div class="flex flex-col gap-4 md:gap-8 ">
+                    <!-- 標題 -->
+                      <h1 class="news__title">
+                        <span class="news__num">01</span>
+                        標題標題
+                      </h1>
+  
+                      <!-- 時間 -->
+                      <p class="text-custom__primary text-sm">
+                        2023.05.12
+                      </p>
+  
+                      <!-- 內文 -->
+                      <p class="news__content">
+                        在新冠肺炎席捲全球的當下，您是否飽受睡眠障礙之苦？明明躺在溫暖的被窩裡，好似有進入夢鄉，隔天醒來後卻仍覺得沒精神、思考效率低迷，睡眠障礙不僅僅會影響工作表現與婚姻關係，更會增加罹患心血管疾病的機率，萬萬不可等閒視之。
+                      </p>
+                  </div>
+  
+                  <!-- 查看更多 BTN -->
+                  <a href="../dist/news-sub.html" class=" ">
+                    <button type="button" class="more__BTN">
+                      查看更多
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                  </a>
+  
+                </div>
+              </div>
+  
+              <!-- 02 -->
+              <div class="flex gap-4 md:gap-12" data-aos="fade-left">
+                <!-- 照片 -->
+                <div class="news__img order-2">
+                  <img src="../img/cover1.jpeg" alt="" class="h-full object-cover">
+                </div>
+  
+                <!-- 內容 -->
+                <div class="news__contentWrapper order-1">
+                  
+                  <div class="flex flex-col gap-4 md:gap-8 ">
+                    <!-- 標題 -->
+                      <h1 class="news__title">
+                        <span class="news__num">01</span>
+                        標題標題
+                      </h1>
+  
+                      <!-- 時間 -->
+                      <p class="text-custom__primary text-sm">
+                        2023.05.12
+                      </p>
+  
+                      <!-- 內文 -->
+                      <p class="news__content">
+                        在新冠肺炎席捲全球的當下，您是否飽受睡眠障礙之苦？明明躺在溫暖的被窩裡，好似有進入夢鄉，隔天醒來後卻仍覺得沒精神、思考效率低迷，睡眠障礙不僅僅會影響工作表現與婚姻關係，更會增加罹患心血管疾病的機率，萬萬不可等閒視之。
+                      </p>
+                  </div>
+  
+                  <!-- 查看更多 BTN -->
+                  <a href="../dist/news-sub.html" class=" ">
+                    <button type="button" class="more__BTN">
+                      查看更多
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                  </a>
+  
+                </div>
+              </div>
+  
+              <!-- 03 -->
+              <div class="flex gap-4 md:gap-12" data-aos="fade-right">
+                <!-- 照片 -->
+                <div class="news__img">
+                  <img src="../img/cover1.jpeg" alt="" class="h-full object-cover">
+                </div>
+  
+                <!-- 內容 -->
+                <div class="news__contentWrapper">
+                  
+                  <div class="flex flex-col gap-4 md:gap-8 ">
+                    <!-- 標題 -->
+                      <h1 class="news__title">
+                        <span class="news__num">01</span>
+                        標題標題
+                      </h1>
+  
+                      <!-- 時間 -->
+                      <p class="text-custom__primary text-sm">
+                        2023.05.12
+                      </p>
+  
+                      <!-- 內文 -->
+                      <p class="news__content">
+                        在新冠肺炎席捲全球的當下，您是否飽受睡眠障礙之苦？明明躺在溫暖的被窩裡，好似有進入夢鄉，隔天醒來後卻仍覺得沒精神、思考效率低迷，睡眠障礙不僅僅會影響工作表現與婚姻關係，更會增加罹患心血管疾病的機率，萬萬不可等閒視之。
+                      </p>
+                  </div>
+  
+                  <!-- 查看更多 BTN -->
+                  <a href="../dist/news-sub.html" class=" ">
+                    <button type="button" class="more__BTN">
+                      查看更多
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                  </a>
+  
+                </div>
+              </div>
+
+              <!-- 04 -->
+              <div class="flex gap-4 md:gap-12" data-aos="fade-left">
+                <!-- 照片 -->
+                <div class="news__img order-2">
+                  <img src="../img/cover1.jpeg" alt="" class="h-full object-cover">
+                </div>
+  
+                <!-- 內容 -->
+                <div class="news__contentWrapper order-1">
+                  
+                  <div class="flex flex-col gap-4 md:gap-8 ">
+                    <!-- 標題 -->
+                      <h1 class="news__title">
+                        <span class="news__num">01</span>
+                        標題標題
+                      </h1>
+  
+                      <!-- 時間 -->
+                      <p class="text-custom__primary text-sm">
+                        2023.05.12
+                      </p>
+  
+                      <!-- 內文 -->
+                      <p class="news__content">
+                        在新冠肺炎席捲全球的當下，您是否飽受睡眠障礙之苦？明明躺在溫暖的被窩裡，好似有進入夢鄉，隔天醒來後卻仍覺得沒精神、思考效率低迷，睡眠障礙不僅僅會影響工作表現與婚姻關係，更會增加罹患心血管疾病的機率，萬萬不可等閒視之。
+                      </p>
+                  </div>
+  
+                  <!-- 查看更多 BTN -->
+                  <a href="../dist/news-sub.html" class=" ">
+                    <button type="button" class="more__BTN">
+                      查看更多
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                  </a>
+  
+                </div>
+              </div>
+  
+            </div>
+          </div>
+
+          <!-- 頁碼 -->
+          <nav class="flex items-center justify-between border-t border-gray-200 px-4 sm:px-0">
+            <div class="-mt-px flex w-0 flex-1 group">
+              <a href="#" class="inline-flex items-center pr-1 pt-4 text-sm font-medium text-gray-500 group-hover:text-custom__secondary">
+                <i class="fa-solid fa-arrow-left mr-3  text-gray-400 group-hover:text-custom__secondary"></i>
+                上一頁
+              </a>
+            </div>
+            <div class="hidden md:-mt-px md:flex pt-4">
+              <a href="#" class="pagination--active ">1</a>
+              <a href="#" class="pagination--default">2</a>
+              <a href="#" class="pagination--default">3</a>
+              <span class="inline-flex items-center px-4  text-sm font-medium text-gray-500">...</span>
+              <a href="#" class="pagination--default">8</a>
+              <a href="#" class="pagination--default">9</a>
+              <a href="#" class="pagination--default">10</a>
+            </div>
+            <div class="-mt-px flex w-0 flex-1 justify-end group">
+              <a href="#" class="inline-flex items-center pl-1 pt-4 text-sm font-medium text-gray-500 group-hover:text-custom__secondary">
+                下一頁
+                <i class="fa-solid fa-arrow-right ml-3 text-gray-400 group-hover:text-custom__secondary"></i>
+              </a>
+            </div>
+          </nav>
+          
+          
+        </div>
+      </div>
+
+    </section>
+    <!-- Info Section End -->
+
+    <!-- Footer Start --> 
+    <footer class="relative bg-custom__third">
+
+      <!-- To top BTN -->
+      <button type="button" onclick="topFunction()" class="toTop__BTN" id="toTop">
+        <i class="fa-solid fa-arrow-up"></i>
+        <p>Top</p>
+      </button>
+
+      <!-- 波浪裝飾 -->
+      <div class="">
+        <img src="../img/Flow4.png" alt="" class="w-full bg-white">
+      </div>
+
+      <!-- Content -->
+      <div class="section font-semibold ">
+        <div class="flex md:gap-16 items-center">
+
+          <!-- Contact Section-->
+          <div class="flex mx-auto justify-center lg:justify-start gap-8 w-full">
+
+            <!-- Logo -->
+            <a href="../index.html" class="h-12 w-12 md:h-16 md:w-16 my-auto">
+              <img src="../img/老吾老logo.png" class="">
+            </a>
+
+            <!-- 聯絡資訊 -->
+              <div class="text-custom__primary text-sm md:text-base flex flex-col gap-2 md:gap-4 my-auto">
+
+                <!-- 電話 -->
+                <div class="flex gap-2">
+                  <i class="fa-solid fa-phone my-auto"></i>
+                  <p class="font-medium">(02)8677-1760</p>
+                </div>
+
+                <!-- 信箱 -->
+                <div class="flex gap-2">
+                  <i class="fa-solid fa-envelope my-auto"></i>
+                  <p class="font-medium">cc91273606@yahoo.com.tw</p>
+                </div>
+
+                <!-- 地址 -->
+                <div class="flex gap-2">
+                  <i class="fa-solid fa-location-dot my-auto"></i>
+                  <p class="font-medium">新北市鶯歌區建國路405巷11號</p>
+                </div>
+
+              </div>
+          </div>
+
+          <!-- Menu -->
+          <div class="hidden md:block w-full">
+            <div class="grid md:grid-cols-2  lg:grid-cols-5 gap-4 text-custom__primary">
+              <a href="../dist/about.html" class="footer__menu">關於我們</a>
+              <a href="../dist/news.html" class="footer__menu">鶯歌老吾老</a>
+              <a href="../dist/member.html" class="footer__menu">老吾老成員</a>
+              <a href="#" class="footer__menu">我們的特色</a>
+              <a href="../dist/contact.html" class="footer__menu">客服專區</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="border-t border-custom__secondary py-4 md:py-8 text-center">
+        <p class="text-sm md:text-base text-custom__primary font-semibold">&copy; 2023 新北市私立老吾老護理之家.</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
 
   </section>
      
@@ -592,5 +594,11 @@
   <!-- Font awesome -->
   <script src="https://kit.fontawesome.com/a8b708c9db.js" crossorigin="anonymous"></script>
       
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 </html>

@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
     <!-- favicon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon.ico">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     
 </head>
@@ -129,7 +131,7 @@
       <div class="relative h-40 md:h-60 lg:h-96 overflow-hidden ">
         <img src="../img/cover8.jpeg" alt="">
         <!-- 波浪裝飾 -->
-        <div class="absolute  bottom-0">
+        <div class="absolute md:hidden bottom-0">
           <img src="../img/Flow2.png" alt="" class="w-full md:bg-custom__third">
         </div>
       </div>
@@ -318,7 +320,7 @@
               <div class="flex flex-col gap-8 md:gap-20 " >
 
                 <!-- 01 -->
-                <div class="flex ">
+                <div class="flex " data-aos="fade-right">
                   <!-- 左 -->
                   <div class="flex gap-6 md:gap-16 w-full items-center">
                     <!-- 圖片 -->
@@ -346,7 +348,7 @@
                 </div>
   
                 <!-- 02 -->
-                <div class="flex">
+                <div class="flex" data-aos="fade-left">
                   <!-- 左 -->
                   <div class="flex gap-4 md:gap-16 w-full items-center order-2">
                       <!-- 圖片 -->
@@ -373,7 +375,7 @@
                 </div>
   
                 <!-- 03 -->
-                <div class="flex">
+                <div class="flex" data-aos="fade-right">
                   <!-- 左 -->
                   <div class="flex gap-4 md:gap-16 w-full items-center">
                     <!-- 圖片 -->
@@ -401,7 +403,7 @@
                 </div>
   
                 <!-- 04 -->
-                <div class="flex">
+                <div class="flex" data-aos="fade-left">
                   <!-- 左 -->
                   <div class="flex gap-4 md:gap-16 w-full items-center order-2">
                       <!-- 圖片 -->
@@ -428,7 +430,7 @@
                 </div>
   
                 <!-- 05 -->
-                <div class="flex">
+                <div class="flex" data-aos="fade-right">
                   <!-- 左 -->
                   <div class="flex gap-4 md:gap-16 w-full items-center">
                     <!-- 圖片 -->
@@ -455,7 +457,7 @@
                 </div>
   
                 <!-- 06 -->
-                <div class="flex">
+                <div class="flex" data-aos="fade-left">
                   <!-- 左 -->
                   <div class="flex gap-4 md:gap-16 w-full items-center order-2">
                       <!-- 圖片 -->
@@ -807,6 +809,12 @@
     
   <!-- Font awesome -->
   <script src="https://kit.fontawesome.com/a8b708c9db.js" crossorigin="anonymous"></script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
       
 </body>
 </html>
