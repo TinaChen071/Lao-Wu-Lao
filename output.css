@@ -3559,6 +3559,7 @@ select{
 }
 
 .environment__img{
+  width: 100%;
   overflow: hidden;
   border-radius: 1rem;
   border-width: 2px;
@@ -3743,14 +3744,6 @@ select{
 
 .top-0{
   top: 0px;
-}
-
-.top-24{
-  top: 6rem;
-}
-
-.top-40{
-  top: 10rem;
 }
 
 .top-full{
@@ -5161,14 +5154,6 @@ html {
     right: 0px;
   }
 
-  .md\:top-40{
-    top: 10rem;
-  }
-
-  .md\:top-72{
-    top: 18rem;
-  }
-
   .md\:order-1{
     order: 1;
   }
@@ -5360,10 +5345,6 @@ html {
 @media (min-width: 1024px){
   .lg\:bottom-6\/5{
     bottom: 120%;
-  }
-
-  .lg\:top-96{
-    top: 24rem;
   }
 
   .lg\:col-span-2{
