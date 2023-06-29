@@ -5238,6 +5238,10 @@ html {
     height: 24rem;
   }
 
+  .md\:h-8{
+    height: 2rem;
+  }
+
   .md\:w-1\/2{
     width: 50%;
   }
