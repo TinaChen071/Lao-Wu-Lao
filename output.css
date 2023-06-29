@@ -3559,6 +3559,7 @@ select{
 }
 
 .environment__img{
+  height: 13rem;
   width: 100%;
   overflow: hidden;
   border-radius: 1rem;
@@ -3772,6 +3773,10 @@ select{
 
 .z-\[60\]{
   z-index: 60;
+}
+
+.z-40{
+  z-index: 40;
 }
 
 .order-1{
