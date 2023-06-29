@@ -4080,6 +4080,10 @@ select{
   resize: both;
 }
 
+.list-inside{
+  list-style-position: inside;
+}
+
 .list-decimal{
   list-style-type: decimal;
 }
@@ -4501,6 +4505,10 @@ select{
   text-align: center;
 }
 
+.indent-8{
+  text-indent: 2rem;
+}
+
 .align-middle{
   vertical-align: middle;
 }
@@ -4750,6 +4758,21 @@ html {
     background-position: center;
     background-repeat: no-repeat;
   }
+}
+
+.first-letter\:text-5xl::first-letter{
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.first-letter\:text-2xl::first-letter{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.first-letter\:text-3xl::first-letter{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .before\:absolute::before{
@@ -5340,6 +5363,11 @@ html {
 
   .md\:line-clamp-none{
     -webkit-line-clamp: unset;
+  }
+
+  .md\:first-letter\:text-5xl::first-letter{
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
