@@ -3775,10 +3775,6 @@ select{
   z-index: 60;
 }
 
-.z-40{
-  z-index: 40;
-}
-
 .order-1{
   order: 1;
 }
@@ -4747,7 +4743,7 @@ html {
 
 @media (min-width: 640px) {
   #checkIn__bg {
-    background-image: url(../img/line.png);
+    background-image: url(img/line.png);
     background-size: 100%;
     --tw-bg-opacity: 0.2;
     background-size: contain;
