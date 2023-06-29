@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
     <!-- favicon -->
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.ico">
-    
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     
 </head>
@@ -285,7 +286,7 @@
               <div class="section flex flex-col gap-12 md:gap-20 ">
 
                 <!-- 01 -->
-                <div class="flex gap-4 md:gap-12">
+                <div class="flex gap-4 md:gap-12" data-aos="fade-right">
                   <!-- 照片 -->
                   <div class="news__img">
                     <img src="img/cover1.jpeg" alt="" class="h-full object-cover">
@@ -324,7 +325,7 @@
                 </div>
     
                 <!-- 02 -->
-                <div class="flex gap-4 md:gap-12">
+                <div class="flex gap-4 md:gap-12" data-aos="fade-left">
                   <!-- 照片 -->
                   <div class="news__img order-2">
                     <img src="img/cover1.jpeg" alt="" class="h-full object-cover">
@@ -363,7 +364,7 @@
                 </div>
     
                 <!-- 03 -->
-                <div class="flex gap-4 md:gap-12">
+                <div class="flex gap-4 md:gap-12" data-aos="fade-right">
                   <!-- 照片 -->
                   <div class="news__img">
                     <img src="img/cover1.jpeg" alt="" class="h-full object-cover">
@@ -631,6 +632,12 @@
     
   <!-- Font awesome -->
   <script src="https://kit.fontawesome.com/a8b708c9db.js" crossorigin="anonymous"></script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
       
 </body>
 </html>
