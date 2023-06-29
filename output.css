@@ -4572,6 +4572,18 @@ select{
   line-height: 1.5rem;
 }
 
+.tracking-widest{
+  letter-spacing: 0.1em;
+}
+
+.tracking-wide{
+  letter-spacing: 0.025em;
+}
+
+.tracking-wider{
+  letter-spacing: 0.05em;
+}
+
 .text-black{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -4773,6 +4785,10 @@ html {
 .first-letter\:text-3xl::first-letter{
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.first-line\:tracking-widest::first-line{
+  letter-spacing: 0.1em;
 }
 
 .before\:absolute::before{
