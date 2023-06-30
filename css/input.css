@@ -146,7 +146,7 @@ html {
     @apply block w-full rounded-md border-gray-300 shadow-sm focus:border-custom__primary focus:ring-custom__primary sm:text-sm;
   }
   .input__radio {
-    @apply shrink-0 mt-0.5 border-gray-200 rounded-full text-custom__primary pointer-events-none focus:ring-custom__primary;
+    @apply shrink-0 mt-0.5 border-gray-200 rounded-full text-custom__primary focus:ring-custom__primary;
   }
   .img__frame__big {
     @apply mx-auto rounded-3xl overflow-hidden border-2 border-custom__secondary w-full aspect-video object-cover;
