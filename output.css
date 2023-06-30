@@ -4572,14 +4572,6 @@ select{
   line-height: 1.5rem;
 }
 
-.tracking-widest{
-  letter-spacing: 0.1em;
-}
-
-.tracking-wide{
-  letter-spacing: 0.025em;
-}
-
 .tracking-wider{
   letter-spacing: 0.05em;
 }
@@ -4772,23 +4764,9 @@ html {
   }
 }
 
-.first-letter\:text-5xl::first-letter{
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.first-letter\:text-2xl::first-letter{
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .first-letter\:text-3xl::first-letter{
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.first-line\:tracking-widest::first-line{
-  letter-spacing: 0.1em;
 }
 
 .before\:absolute::before{
@@ -5236,10 +5214,6 @@ html {
 
   .md\:h-96{
     height: 24rem;
-  }
-
-  .md\:h-8{
-    height: 2rem;
   }
 
   .md\:w-1\/2{
