@@ -4763,6 +4763,13 @@ html {
   }
 }
 
+#bg {
+  background-image: url(img/bg.png);
+  --tw-bg-opacity: 0.2;
+  background-position: center;
+  background-repeat: round;
+}
+
 .first-letter\:text-3xl::first-letter{
   font-size: 1.875rem;
   line-height: 2.25rem;

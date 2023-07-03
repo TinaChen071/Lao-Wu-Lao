@@ -144,3 +144,9 @@
       @apply bg-contain bg-no-repeat bg-center bg-opacity-20;
     }
   }
+
+#bg {
+    background-image: url(img/bg.png); 
+    
+    @apply  bg-repeat-round bg-center bg-opacity-20;
+}
