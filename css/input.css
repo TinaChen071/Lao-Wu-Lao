@@ -1,5 +1,3 @@
-@charset "UTF-8";
-@import "../node_modules/animate.css/animate.css";
 @import url("https://fonts.googleapis.com/css2?family=Water+Brush&display=swap");
 @tailwind base;
 @tailwind components;
@@ -18,9 +16,9 @@ html {
 }
 
 .swiper {
-  --swiper-theme-color: white; /* 设置Swiper风格 */
-  --swiper-navigation-color: white; /* 单独设置按钮颜色 */
-  --swiper-navigation-size: 30px; /* 设置按钮大小 */
+  --swiper-theme-color: white;
+  --swiper-navigation-color: white;
+  --swiper-navigation-size: 30px;
 }
 
 .mainMenu > li > a {

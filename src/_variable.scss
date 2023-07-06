@@ -13,43 +13,13 @@ html{
     }
 }
 
+// swiper
 .swiper{
-    --swiper-theme-color: white;/* 设置Swiper风格 */
-    --swiper-navigation-color: white;/* 单独设置按钮颜色 */
-    --swiper-navigation-size: 30px;/* 设置按钮大小 */
+    --swiper-theme-color: white;
+    --swiper-navigation-color: white;
+    --swiper-navigation-size: 30px;
   }
 
 .mainMenu > li > a{
     display: block;
 }
-// #slider::after{
-//     content:"";
-//     display: inline-block;
-//     background-image: url('img/Vector\ \(2\).png');
-//     background-size: cover;
-//     position: absolute;
-//     bottom: 0px;
-//     z-index: 20;
-//     width: 100%;
-//     height: 30%;
-// }
-
-// #nav::after{
-//     content:"";
-//     display: inline-block;
-//     background-image: url('/img/Vector.png');
-//     background-size: cover;
-//     position: absolute;
-//     bottom: 0px;
-//     z-index: 20;
-//     width: 100%;
-//     height: 30%;
-// }
-
-// #navbar::before{
-//     content:url('/img/老吾老logo\ \(2\).png');   
-//     position: absolute;
-//     top: -50%;
-//     z-index: 200;
-    
-// }
