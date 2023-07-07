@@ -1898,6 +1898,10 @@ select{
   flex-wrap: wrap;
 }
 
+.items-start{
+  align-items: flex-start;
+}
+
 .items-end{
   align-items: flex-end;
 }
@@ -2101,6 +2105,11 @@ select{
 .object-center{
   -o-object-position: center;
      object-position: center;
+}
+
+.object-top{
+  -o-object-position: top;
+     object-position: top;
 }
 
 .p-1{
