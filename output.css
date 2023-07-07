@@ -1898,10 +1898,6 @@ select{
   flex-wrap: wrap;
 }
 
-.items-start{
-  align-items: flex-start;
-}
-
 .items-end{
   align-items: flex-end;
 }
@@ -2405,14 +2401,6 @@ html {
   }
 }
 
-@media (min-width: 768px){
-  .md\:horizon__center{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
 .first-letter\:text-3xl::first-letter{
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -2645,11 +2633,6 @@ html {
     line-height: 1.25rem;
   }
 
-  .sm\:text-base{
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
   .sm\:shadow-md{
     --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
@@ -2688,11 +2671,6 @@ html {
 
   .md\:order-2{
     order: 2;
-  }
-
-  .md\:mx-auto{
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .md\:-mt-px{
@@ -2754,10 +2732,6 @@ html {
 
   .md\:items-center{
     align-items: center;
-  }
-
-  .md\:justify-center{
-    justify-content: center;
   }
 
   .md\:gap-10{
@@ -2832,10 +2806,6 @@ html {
 
   .md\:text-left{
     text-align: left;
-  }
-
-  .md\:text-center{
-    text-align: center;
   }
 
   .md\:text-base{
