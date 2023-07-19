@@ -135,6 +135,10 @@
         @apply mx-auto rounded-3xl overflow-hidden border-2 border-custom__secondary w-full aspect-video object-cover
     }
 
+    .features__card__p {
+        @apply text-base md:text-2xl font-medium leading-loose
+    }
+
 }
 
 @screen sm {
