@@ -1758,6 +1758,14 @@ select{
   aspect-ratio: 16 / 9;
 }
 
+.aspect-\[4\/5\]{
+  aspect-ratio: 4/5;
+}
+
+.aspect-\[3\/2\]{
+  aspect-ratio: 3/2;
+}
+
 .h-10{
   height: 2.5rem;
 }
@@ -2152,19 +2160,9 @@ select{
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.via-custom__primary{
-  --tw-gradient-to: rgb(95 123 81 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), #5F7B51, var(--tw-gradient-to);
-}
-
 .via-custom__secondary{
   --tw-gradient-to: rgb(198 210 146 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), #C6D292, var(--tw-gradient-to);
-}
-
-.via-custom__forth{
-  --tw-gradient-to: rgb(217 236 177 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), #D9ECB1, var(--tw-gradient-to);
 }
 
 .to-white{
@@ -2230,6 +2228,11 @@ select{
   padding-right: 2rem;
 }
 
+.py-16{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .py-2{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -2243,26 +2246,6 @@ select{
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.py-8{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.py-16{
-  padding-top: 4rem;
-  padding-bottom: 4rem;
 }
 
 .pl-1{
