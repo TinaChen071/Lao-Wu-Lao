@@ -9,6 +9,7 @@ module.exports = {
         'custom__third': '#F0F5E1',
         'custom__forth': '#D9ECB1',
         'custom__alert': '#D02424',
+        'custom__brand': '#BB241D',
       },
       spacing: {
         '128': '32rem',
