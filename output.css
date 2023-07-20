@@ -822,6 +822,7 @@ select{
 }
 
 .news__img{
+  aspect-ratio: 1 / 1;
   height: 13rem;
   width: 100%;
   overflow: hidden;
@@ -1758,14 +1759,6 @@ select{
   aspect-ratio: 16 / 9;
 }
 
-.aspect-\[4\/5\]{
-  aspect-ratio: 4/5;
-}
-
-.aspect-\[3\/2\]{
-  aspect-ratio: 3/2;
-}
-
 .h-10{
   height: 2.5rem;
 }
@@ -2684,10 +2677,6 @@ html {
     display: flex;
   }
 
-  .sm\:aspect-\[3\/2\]{
-    aspect-ratio: 3/2;
-  }
-
   .sm\:aspect-\[4\/5\]{
     aspect-ratio: 4/5;
   }
@@ -2805,10 +2794,6 @@ html {
 
   .md\:hidden{
     display: none;
-  }
-
-  .md\:aspect-\[4\/5\]{
-    aspect-ratio: 4/5;
   }
 
   .md\:h-16{
