@@ -23,7 +23,7 @@
     }
 
     .news__img {
-        @apply rounded-2xl overflow-hidden border-custom__secondary border-2 w-full object-cover aspect-square md:aspect-video shadow-lg
+        @apply rounded-2xl overflow-hidden border-custom__secondary border-2 w-full object-cover aspect-square md:aspect-[5/4] shadow-lg
     }
     .news__contentWrapper {
         @apply w-full flex flex-col items-start justify-between text-ellipsis overflow-hidden

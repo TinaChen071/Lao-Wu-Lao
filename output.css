@@ -838,7 +838,7 @@ select{
 
 @media (min-width: 768px){
   .news__img{
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 5/4;
   }
 }
 
@@ -2859,20 +2859,16 @@ html {
     gap: 5rem;
   }
 
+  .md\:gap-32{
+    gap: 8rem;
+  }
+
   .md\:gap-4{
     gap: 1rem;
   }
 
-  .md\:gap-40{
-    gap: 10rem;
-  }
-
   .md\:gap-8{
     gap: 2rem;
-  }
-
-  .md\:gap-32{
-    gap: 8rem;
   }
 
   .md\:whitespace-nowrap{
