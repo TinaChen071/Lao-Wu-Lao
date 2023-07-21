@@ -2157,6 +2157,10 @@ select{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-white\/20{
+  background-color: rgb(255 255 255 / 0.2);
+}
+
 .bg-opacity-50{
   --tw-bg-opacity: 0.5;
 }
@@ -2402,6 +2406,11 @@ select{
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-900{
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
 .opacity-0{
@@ -2944,6 +2953,16 @@ html {
     padding-bottom: 2rem;
   }
 
+  .md\:py-10{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .md\:py-20{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .md\:pb-40{
     padding-bottom: 10rem;
   }
@@ -3010,6 +3029,11 @@ html {
   .lg\:py-40{
     padding-top: 10rem;
     padding-bottom: 10rem;
+  }
+
+  .lg\:py-20{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .lg\:pr-12{
