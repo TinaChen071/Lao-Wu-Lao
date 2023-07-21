@@ -1421,8 +1421,33 @@ select{
   }
 }
 
-.environment__img{
-  aspect-ratio: 1 / 1;
+.environment__imgWrapper{
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.environment__img1{
+  aspect-ratio: 5/4;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(198 210 146 / var(--tw-border-opacity));
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.environment__img2{
+  aspect-ratio: 5/4;
   width: 100%;
   overflow: hidden;
   border-radius: 1rem;
@@ -1437,10 +1462,11 @@ select{
 }
 
 @media (min-width: 768px){
-  .environment__img{
+  .environment__img2{
     position: absolute;
-    right: -4rem;
-    bottom: -9rem;
+    right: -20%;
+    bottom: -50%;
+    aspect-ratio: 1 / 1;
     width: 50%;
   }
 }
@@ -1448,14 +1474,29 @@ select{
 .environment__title{
   font-size: 1.5rem;
   line-height: 2rem;
+  font-weight: 500;
   --tw-text-opacity: 1;
   color: rgb(95 123 81 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px){
   .environment__title{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+.environment__p{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px){
+  .environment__p{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
@@ -1599,6 +1640,10 @@ select{
   bottom: -0.75rem;
 }
 
+.-top-12{
+  top: -3rem;
+}
+
 .-top-3{
   top: -0.75rem;
 }
@@ -1633,18 +1678,6 @@ select{
 
 .top-full{
   top: 100%;
-}
-
-.-top-8{
-  top: -2rem;
-}
-
-.top-8{
-  top: 2rem;
-}
-
-.-top-12{
-  top: -3rem;
 }
 
 .z-10{
@@ -1879,6 +1912,10 @@ select{
 
 .w-4{
   width: 1rem;
+}
+
+.w-4\/5{
+  width: 80%;
 }
 
 .w-5{
@@ -2336,6 +2373,11 @@ select{
   line-height: 1.25rem;
 }
 
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
@@ -2756,6 +2798,10 @@ html {
     justify-content: space-between;
   }
 
+  .sm\:gap-16{
+    gap: 4rem;
+  }
+
   .sm\:border{
     border-width: 1px;
   }
@@ -2803,6 +2849,10 @@ html {
     position: absolute;
   }
 
+  .md\:-left-1\/5{
+    left: -20%;
+  }
+
   .md\:bottom-0{
     bottom: 0px;
   }
@@ -2845,6 +2895,10 @@ html {
 
   .md\:w-16{
     width: 4rem;
+  }
+
+  .md\:w-2\/3{
+    width: 66.666667%;
   }
 
   .md\:w-fit{
@@ -2892,8 +2946,8 @@ html {
     gap: 1rem;
   }
 
-  .md\:gap-48{
-    gap: 12rem;
+  .md\:gap-60{
+    gap: 15rem;
   }
 
   .md\:gap-8{
@@ -2934,6 +2988,10 @@ html {
     padding-bottom: 2rem;
   }
 
+  .md\:pb-40{
+    padding-bottom: 10rem;
+  }
+
   .md\:text-left{
     text-align: left;
   }
@@ -2970,10 +3028,6 @@ html {
 
   .lg\:top-24{
     top: 6rem;
-  }
-
-  .lg\:block{
-    display: block;
   }
 
   .lg\:w-1\/3{
@@ -3016,18 +3070,8 @@ html {
 }
 
 @media (min-width: 1280px){
-  .xl\:block{
-    display: block;
-  }
-
-  .xl\:text-sm{
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
-  .xl\:text-xs{
-    font-size: 0.75rem;
-    line-height: 1rem;
+  .xl\:grid-cols-5{
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }
 /*# sourceMappingURL=output.css.map */
