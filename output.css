@@ -1619,6 +1619,10 @@ select{
   left: 0px;
 }
 
+.left-1\/10{
+  left: 10%;
+}
+
 .left-3{
   left: 0.75rem;
 }
@@ -1633,10 +1637,6 @@ select{
 
 .top-full{
   top: 100%;
-}
-
-.left-1\/10{
-  left: 10%;
 }
 
 .z-10{
