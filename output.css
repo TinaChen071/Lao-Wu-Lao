@@ -1603,10 +1603,6 @@ select{
   top: -0.75rem;
 }
 
-.-top-4{
-  top: -1rem;
-}
-
 .bottom-0{
   bottom: 0px;
 }
@@ -1619,8 +1615,8 @@ select{
   left: 0px;
 }
 
-.left-1\/10{
-  left: 10%;
+.left-1\/20{
+  left: 5%;
 }
 
 .left-3{
@@ -1637,6 +1633,18 @@ select{
 
 .top-full{
   top: 100%;
+}
+
+.-top-8{
+  top: -2rem;
+}
+
+.top-8{
+  top: 2rem;
+}
+
+.-top-12{
+  top: -3rem;
 }
 
 .z-10{
@@ -3004,6 +3012,22 @@ html {
   .lg\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:block{
+    display: block;
+  }
+
+  .xl\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .xl\:text-xs{
+    font-size: 0.75rem;
+    line-height: 1rem;
   }
 }
 /*# sourceMappingURL=output.css.map */
