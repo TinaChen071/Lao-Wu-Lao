@@ -1583,6 +1583,8 @@ select{
   border-width: 2px;
   --tw-border-opacity: 1;
   border-color: rgb(198 210 146 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: 1rem;
@@ -1804,6 +1806,10 @@ select{
   margin-top: 1.25rem;
 }
 
+.mr-auto{
+  margin-right: auto;
+}
+
 .block{
   display: block;
 }
@@ -2013,12 +2019,32 @@ select{
   flex-wrap: wrap;
 }
 
+.place-content-start{
+  place-content: start;
+}
+
+.place-items-start{
+  place-items: start;
+}
+
+.content-start{
+  align-content: flex-start;
+}
+
+.items-start{
+  align-items: flex-start;
+}
+
 .items-end{
   align-items: flex-end;
 }
 
 .items-center{
   align-items: center;
+}
+
+.justify-start{
+  justify-content: flex-start;
 }
 
 .justify-end{
@@ -2031,6 +2057,10 @@ select{
 
 .justify-between{
   justify-content: space-between;
+}
+
+.justify-items-start{
+  justify-items: start;
 }
 
 .gap-10{
@@ -2087,8 +2117,20 @@ select{
   border-color: rgb(229 231 235 / var(--tw-divide-opacity));
 }
 
+.place-self-start{
+  place-self: start;
+}
+
+.self-start{
+  align-self: flex-start;
+}
+
 .self-end{
   align-self: flex-end;
+}
+
+.justify-self-start{
+  justify-self: start;
 }
 
 .overflow-hidden{
@@ -2408,6 +2450,22 @@ select{
 
 .font-semibold{
   font-weight: 600;
+}
+
+.leading-loose{
+  line-height: 2;
+}
+
+.leading-10{
+  line-height: 2.5rem;
+}
+
+.leading-relaxed{
+  line-height: 1.625;
+}
+
+.leading-normal{
+  line-height: 1.5;
 }
 
 .tracking-wider{

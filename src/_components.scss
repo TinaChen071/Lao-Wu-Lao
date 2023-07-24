@@ -165,7 +165,7 @@
         @apply z-20 flex items-center order-1 bg-custom__primary shadow-lg w-8 h-8 rounded-full
     }
     .timeline__card {
-        @apply flex  gap-4 flex-row items-center order-1 border-2 border-custom__secondary rounded-lg shadow-lg w-full lg:w-5/12 px-6 py-4 
+        @apply flex  gap-4 flex-row items-center order-1 border-2 border-custom__secondary rounded-lg shadow-lg w-full lg:w-5/12 px-6 py-4 bg-white
     }
 
 }
@@ -173,7 +173,6 @@
 @screen sm {
     #bg {
         background-image: url(img/bg.png); 
-        
         @apply  bg-repeat-round bg-center bg-opacity-20;
     }
     #checkIn__bg {
