@@ -1864,14 +1864,6 @@ select{
   width: 100%;
 }
 
-.w-1\/2{
-  width: 50%;
-}
-
-.w-3\/5{
-  width: 60%;
-}
-
 .min-w-full{
   min-width: 100%;
 }
@@ -2841,21 +2833,13 @@ html {
     width: 75%;
   }
 
-  .md\:w-fit{
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-
   .md\:w-4\/5{
     width: 80%;
   }
 
-  .md\:w-4{
-    width: 1rem;
-  }
-
-  .md\:w-\[4\/5\]{
-    width: 4/5;
+  .md\:w-fit{
+    width: -moz-fit-content;
+    width: fit-content;
   }
 
   .md\:grid-cols-2{
