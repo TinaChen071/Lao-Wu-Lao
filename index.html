@@ -34,7 +34,7 @@
           <a href="#" class="">
             <div class="flex items-center gap-4">
               <img src="img/老吾老logo.png" class="h-10">
-              <p class="text-custom__brand font-medium text-xs sm:text-base  whitespace-nowrap">新北市私立老吾老住宿長照機構</p>
+              <p class="text-custom__brand font-medium text-xs sm:text-base whitespace-nowrap">新北市私立老吾老住宿長照機構</p>
             </div>
           </a>
 
@@ -188,11 +188,11 @@
             <header class="relative flex flex-wrap sm:justify-center sm:flex-nowrap z-50 w-full  text-sm " >
               <!-- 名稱 -->
               <div class="hidden md:block absolute inset-y-0 left-1/20 -top-12 text-custom__brand font-medium">
-                <p class="text-xs whitespace-nowrap">老吾老長照社團法人附設</p>
-                <p class="text-xs whitespace-nowrap">新北市私立老吾老住宿長照機構</p>
+                <p class=" whitespace-nowrap">老吾老長照社團法人附設</p>
+                <p class="text-lg whitespace-nowrap">新北市私立老吾老住宿長照機構</p>
               </div>
               <!-- Nav -->
-              <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
+              <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between z-100" aria-label="Global">
             
                 <div id="navbar-collapse-basic" class="hidden basis-full grow sm:block">
                   <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-center sm:mt-0 sm:pl-5">
@@ -309,22 +309,26 @@
         <div class="section flex flex-col gap-10 md:gap-16">
           <!-- 標題 -->
           <div class="sectionTitle__Wrapper">
-            <h2>SERVICE</h2>
-            <hr class="border-b border-custom__primary">
             <h2>服務介紹</h2>
+            <hr class="border-b border-custom__primary">
+            <h2>SERVICE</h2>
           </div>
           
           <!-- 主視覺 -->
-          <div class="relative flex flex-col md:flex-row gap-4">
+          <div class="relative flex flex-col lg:flex-row gap-4">
 
             <!-- 圖片 -->
             <img src="img/服務介紹/服務介紹.png" alt="" class="" data-aos="fade-right">
 
             <!-- 介紹 -->
-            <div class="md:absolute md:left-1/2 md:bottom-0 z-10 md:w-2/3 lg:w-1/2 flex flex-col gap-4 md:gap-8 bg-white rounded-xl p-8 shadow-lg border-2 border-gray-100" data-aos="fade-left">
-              <h2 class="text-xl md:text-2xl font-semibold">24小時安心照顧體制</h2>
-              <p>環境舒適，身心靈全面照顧，二十四小時專業的照護服務，讓長者入住老吾老擁有更好的生活品質。讓所有入住｢老吾老｣的長者們在我們專業護理、完整照護及細心、愛心、耐心全方位照顧下，皆能感受到如在家中的親情溫暖更勝家中的舒適與安全。</p>
-              <p>每位老吾老員工的貼心、細心。護理師及照顧服務員24 小時陪伴與照護。護理、照服及社工跨專業整合提供個別生活計畫，如清潔沐浴更衣、個別化飲食、社交活動、休閒娛樂，臥床長輩定時翻拍背拍背、抽痰及鼻胃管、尿管衛生照護及移除訓練。</p>
+            <div class="lg:absolute md:left-1/2 lg:bottom-0 z-10  lg:w-1/2 flex flex-col gap-4 md:gap-8 bg-white rounded-xl p-8 shadow-lg border-2 border-gray-100" data-aos="fade-left">
+              <h2 class="text-xl md:text-3xl font-semibold">24小時安心照顧體制</h2>
+              <p class="environment__p ">
+                由護理師及照顧服務員提供24小時陪伴與照護服務，讓您安心託付。
+                <br>
+                <br>
+                跨專業整合「護理照護、日常照顧、社工服務」，擬定住民的個別生活計畫，全面照顧長輩的身心靈。
+              </p>
               <!-- 完整服務 BTN -->
               <a href="dist/service.html" class=" ">
                 <button type="button" class="more__BTN text-xl">
@@ -342,9 +346,9 @@
         <div class="section flex flex-col gap-10 md:gap-16">
           <!-- 標題 -->
           <div class="sectionTitle__Wrapper">
-            <h2>ENVIRONMENT</h2>
-            <hr class="border-b border-custom__primary">
             <h2>環境介紹</h2>
+            <hr class="border-b border-custom__primary">
+            <h2>ENVIRONMENT</h2>
           </div>
 
           <!-- 環境介紹卡片 -->
@@ -447,16 +451,16 @@
         <div class="section flex flex-col gap-10 md:gap-16 ">
           <!-- 標題 -->
           <div class="sectionTitle__Wrapper">
-            <h2>NEWS</h2>
-            <hr class="border-b border-custom__primary">
             <h2>最新消息</h2>
+            <hr class="border-b border-custom__primary">
+            <h2>NEWS</h2>
           </div>
 
           <!-- 最新消息卡片 -->
           <div class="flex flex-col gap-10 md:gap-16">
 
             <!-- 01 -->
-            <div class="flex flex-col md:flex-row gap-4 md:gap-12" data-aos="fade-right">
+            <div class="flex flex-col md:flex-row gap-4 md:gap-12 order-2" data-aos="fade-right">
               <!-- 照片 -->
               <div class="news__img">
                 <img src="img/最新消息/最新消息1.jpg" alt="" class="w-full h-full object-cover">
@@ -468,22 +472,25 @@
                 <div class="flex flex-col gap-4 md:gap-8 ">
                   <!-- 標題 -->
                     <h1 class="news__title">
-                      第一則文章
+                      通過設立許可
                     </h1>
 
                     <!-- 時間 -->
                     <p class="news__date">
-                      2023.07.26
+                      2023.07.12
                     </p>
 
                     <!-- 內文 -->
-                    <!-- <p class="news__content">
-                      在新冠肺炎席捲全球的當下，您是否飽受睡眠障礙之苦？明明躺在溫暖的被窩裡，好似有進入夢鄉，隔天醒來後卻仍覺得沒精神、思考效率低迷，睡眠障礙不僅僅會影響工作表現與婚姻關係，更會增加罹患心血管疾病的機率，萬萬不可等閒視之。
-                    </p> -->
+                    <p class="news__content">
+                      老吾老住宿長照機構空間寬敞舒適，24小時安心照顧體制，皆能感受到如在家中的親情溫暖更勝家中的舒適與安全。
+                      <br>
+                      <br>
+                      參觀請洽 02-8677-1760
+                    </p>
                 </div>
 
                 <!-- 完整文章 BTN -->
-                <a href="dist/news-sub.html" class=" ">
+                <a href="dist/news-sub1.html" class=" ">
                   <button type="button" class="more__BTN">
                     完整文章
                     <i class="fa-solid fa-arrow-right"></i>
@@ -528,7 +535,7 @@
                 </div>
 
                 <!-- 完整文章 BTN -->
-                <a href="dist/news-sub.html" class=" ">
+                <a href="dist/news-sub2.html" class=" ">
                   <button type="button" class="more__BTN">
                     完整文章
                     <i class="fa-solid fa-arrow-right"></i>
